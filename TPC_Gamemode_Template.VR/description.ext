@@ -1,0 +1,74 @@
+//// это менять и можете сюда вписывать cfgMusics, cfgSounds
+author = "Крутой мишнмейкер"; // тут понятно
+onLoadName = "Крутая миссия"; // тут понятно
+onLoadMission = "Крутой текст связанный с миссией."; // тут понятно
+loadScreen = "logo.jpg"; // картинка при загрузке .PAA или .JPG
+briefingName = "TPC GAMEMODE Шаблон"; // делаете к примеру TPC COOP Штурм Грозного или TPC TVT Штурм Грозного
+
+class Header
+{
+	gameType = "Coop";	// Game type
+	minPlayers =  1;	// minimum number of players the mission supports
+	maxPlayers = 100;	// maximum number of players the mission supports
+};
+
+//// это менять но лучше с помощью мишн инспекторов или шерпы
+respawn = 1;
+respawnVehicle = 0;
+respawnButton = 0;
+respawnDelay = 10;
+respawnVehicleDelay = 10;
+respawnDialog = 0;
+respawnOnStart = -1;
+
+respawnTemplatesWest[] = { "tmf_spectator" };
+respawnTemplatesEast[] = { "tmf_spectator" };
+respawnTemplatesGuer[] = { "tmf_spectator" };
+respawnTemplatesCiv[] = { "tmf_spectator" };
+respawnTemplatesVirtual[] = {};
+
+briefing = 1;
+debriefing = 1;
+
+disabledAI = 1;
+
+
+//// это не менять
+class CfgDebriefingSections {
+    class acex_killTracker {
+        title = "TPC Подтвержденные убийства";
+        variable = "acex_killTracker_outputText";
+    };
+};
+
+disableChannels[] = { 0, 2, 4, 5 };
+enableDebugConsole = 1;
+joinUnassigned = 1;
+saving = 0;
+allowProfileGlasses = 0;
+
+//wip
+class CfgNotifications
+{
+	class TPC_Custom_Notification_1
+	{
+		title = "";
+		iconPicture = "";
+		iconText = "";
+		description = "";
+		color[] = {1,1,1,1};
+		duration = 5;
+		priority = 0;
+		difficulty[] = {};
+	};
+};
+
+class CfgDebriefing
+{
+	class TPC_Custom_Ending_1
+	{
+		title = "TEST";
+		description = "TEST";
+		picture = "KIA";
+	};
+};
