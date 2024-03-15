@@ -30,7 +30,7 @@ respawnTemplatesVirtual[] = {};
 briefing = 1;
 debriefing = 1;
 
-disabledAI = 1;
+disabledAI = 0;
 
 
 //// это не менять

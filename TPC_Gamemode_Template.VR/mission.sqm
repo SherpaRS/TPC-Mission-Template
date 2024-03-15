@@ -19,18 +19,18 @@ class EditorData
 	};
 	class ItemIDProvider
 	{
-		nextID=72;
+		nextID=74;
 	};
 	class MarkerIDProvider
 	{
-		nextID=4;
+		nextID=9;
 	};
 	class Camera
 	{
-		pos[]={3434.1887,51.466427,2102.6895};
-		dir[]={-1.2363449e-07,-0.70710683,0.70710683};
-		up[]={-1.2363449e-07,0.70710671,0.70710683};
-		aside[]={1,0,1.7484557e-07};
+		pos[]={3446.7212,41.101982,2119.897};
+		dir[]={0.025831444,-0.87348801,0.48615989};
+		up[]={0.046346221,0.48684567,0.87225759};
+		aside[]={0.99859142,0,-0.053058796};
 	};
 };
 binarizationWanted=0;
@@ -46,13 +46,14 @@ addons[]=
 	"real_uniform_unlock",
 	"A3_Weapons_F",
 	"ace_goggles",
-	"A3_Ui_F"
+	"A3_Ui_F",
+	"tpc_triggers"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=10;
+		items=11;
 		class Item0
 		{
 			className="A3_Data_F_Curator";
@@ -117,6 +118,12 @@ class AddonsMetaData
 			name="Arma 3 - User Interface";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
+		};
+		class Item10
+		{
+			className="tpc_triggers";
+			name="tpc_triggers";
+			author="Sherpa";
 		};
 	};
 };
@@ -19977,7 +19984,7 @@ class CustomAttributes
 													class data
 													{
 														singleType="STRING";
-														value="RobotoCondensed";
+														value="LCD14";
 													};
 												};
 												class Item1
@@ -20004,7 +20011,7 @@ class CustomAttributes
 													class data
 													{
 														singleType="STRING";
-														value="nato";
+														value="everlight";
 													};
 												};
 												class Item1
@@ -20031,7 +20038,7 @@ class CustomAttributes
 													class data
 													{
 														singleType="STRING";
-														value="ace";
+														value="protanopia";
 													};
 												};
 												class Item1
@@ -20538,7 +20545,7 @@ class CustomAttributes
 													class data
 													{
 														singleType="BOOL";
-														value=1;
+														value=0;
 													};
 												};
 												class Item1
@@ -20565,7 +20572,7 @@ class CustomAttributes
 													class data
 													{
 														singleType="BOOL";
-														value=1;
+														value=0;
 													};
 												};
 												class Item1
@@ -20592,7 +20599,7 @@ class CustomAttributes
 													class data
 													{
 														singleType="BOOL";
-														value=1;
+														value=0;
 													};
 												};
 												class Item1
@@ -20727,7 +20734,7 @@ class CustomAttributes
 													class data
 													{
 														singleType="BOOL";
-														value=1;
+														value=0;
 													};
 												};
 												class Item1
@@ -20754,7 +20761,7 @@ class CustomAttributes
 													class data
 													{
 														singleType="BOOL";
-														value=1;
+														value=0;
 													};
 												};
 												class Item1
@@ -20781,7 +20788,7 @@ class CustomAttributes
 													class data
 													{
 														singleType="BOOL";
-														value=1;
+														value=0;
 													};
 												};
 												class Item1
@@ -20808,7 +20815,7 @@ class CustomAttributes
 													class data
 													{
 														singleType="BOOL";
-														value=1;
+														value=0;
 													};
 												};
 												class Item1
@@ -20835,7 +20842,7 @@ class CustomAttributes
 													class data
 													{
 														singleType="STRING";
-														value="RobotoCondensedBold";
+														value="LCD14";
 													};
 												};
 												class Item1
@@ -20862,7 +20869,7 @@ class CustomAttributes
 													class data
 													{
 														singleType="STRING";
-														value="RobotoCondensedLight";
+														value="LCD14";
 													};
 												};
 												class Item1
@@ -30371,7 +30378,7 @@ class CustomAttributes
 													class data
 													{
 														singleType="STRING";
-														value="['tcl_system','ocap', 'lambs_suppression', 'SIG_unitScanner', 'SFSM_fipo', 'SFSM_traits', 'lambs_rpg', 'lambs_turrets', 'lambs_rpgRHS', 'soldierFSM', 'lambs_main', 'lambs_range', 'lambs_danger', 'lambs_wp', 'lambs_formations', 'lambs_eventhandlers']";
+														value="['tcl_system', 'lambs_suppression', 'SIG_unitScanner', 'SFSM_fipo', 'SFSM_traits', 'lambs_rpg', 'lambs_turrets', 'lambs_rpgRHS', 'soldierFSM', 'lambs_main', 'lambs_range', 'lambs_danger', 'lambs_wp', 'lambs_formations', 'lambs_eventhandlers', 'ocap_main', 'ocap_extension', 'ocap_recorder']";
 													};
 												};
 												class Item1
@@ -59747,7 +59754,20 @@ class CustomAttributes
 				};
 			};
 		};
-		nAttributes=5;
+		class Attribute5
+		{
+			property="cba_settings_hasSettingsFile";
+			expression="false";
+			class Value
+			{
+				class data
+				{
+					singleType="BOOL";
+					value=0;
+				};
+			};
+		};
+		nAttributes=6;
 	};
 };
 class Mission
@@ -59777,7 +59797,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=29;
+		items=31;
 		class Item0
 		{
 			dataType="Logic";
@@ -60132,7 +60152,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={3450.7041,5.0014391,2142.251};
-						angles[]={0,4.7079811,-0};
+						angles[]={0,4.7079811,0};
 					};
 					side="Independent";
 					flags=7;
@@ -60766,6 +60786,205 @@ class Mission
 			};
 			title="Маркер видимый только CIVILIAN.";
 			id=71;
+		};
+		class Item29
+		{
+			dataType="Marker";
+			position[]={3649.366,5,2249.4775};
+			name="test_trigger";
+			markerType="RECTANGLE";
+			type="";
+			a=50;
+			b=50;
+			id=72;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="markerblink";
+					expression="if ((_value # 0 isNotEqualTo 0) || (_value # 1 isNotEqualTo 0)) then {[_this, _value # 0, _value # 1] spawn BIS_fnc_blinkMarker};";
+					class Value
+					{
+						class data
+						{
+							singleType="ARRAY";
+							class value
+							{
+								items=3;
+								class Item0
+								{
+									class data
+									{
+										singleType="SCALAR";
+										value=0;
+									};
+								};
+								class Item1
+								{
+									class data
+									{
+										singleType="SCALAR";
+										value=0;
+									};
+								};
+								class Item2
+								{
+									class data
+									{
+										singleType="SCALAR";
+										value=0;
+									};
+								};
+							};
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item30
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={3718.667,5,2247.834};
+			};
+			id=73;
+			type="TPC_Area";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="TPC_Area_Marker";
+					expression="_this setVariable ['Marker',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="test_trigger";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="TPC_Area_Advantage";
+					expression="_this setVariable ['Advantage',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=1;
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="TPC_Area_Height";
+					expression="_this setVariable ['Height',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=50;
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="TPC_Area_Name";
+					expression="_this setVariable ['Name',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="Тестовый триггер";
+						};
+					};
+				};
+				class Attribute4
+				{
+					property="TPC_Area_Recapturable";
+					expression="_this setVariable ['Recapturable',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="BOOL";
+							value=1;
+						};
+					};
+				};
+				class Attribute5
+				{
+					property="TPC_Area_TimeToCapture";
+					expression="_this setVariable ['TimeToCapture',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=1;
+						};
+					};
+				};
+				class Attribute6
+				{
+					property="TPC_Area_Owner";
+					expression="_this setVariable ['Owner',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=3;
+						};
+					};
+				};
+				class Attribute7
+				{
+					property="TPC_Area_Condition";
+					expression="_this setVariable ['Condition',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="true";
+						};
+					};
+				};
+				class Attribute8
+				{
+					property="TPC_Area_Capturer";
+					expression="_this setVariable ['Capturer',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=3;
+						};
+					};
+				};
+				class Attribute9
+				{
+					property="TPC_Area_Code";
+					expression="_this setVariable ['Code',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="";
+						};
+					};
+				};
+				nAttributes=10;
+			};
 		};
 	};
 };
