@@ -1,4 +1,4 @@
-// Ð¡Ð¸ÑÑ‚ÐµÐ¼Ð° Ð‘Ñ€Ð¾Ð½ÐµÐ¿Ð»Ð¸Ñ‚
+// РЎРёСЃС‚РµРјР° Р‘СЂРѕРЅРµРїР»РёС‚
 force diw_armor_plates_main_AIchancePlateInInventory = 0;
 force diw_armor_plates_main_AIchancePlateInInventoryMaxNo = 0;
 force diw_armor_plates_main_AIchancePlateInVest = 0;
@@ -34,7 +34,7 @@ force A3TI_REMOVE_FILMGRAIN_RHS = true;
 // Aaren's Blast Effect
 force tracer_illuminate_list = 3;
 
-// ACE ÐÑ€ÑÐµÐ½Ð°Ð»
+// ACE РђСЂСЃРµРЅР°Р»
 force ace_arsenal_allowDefaultLoadouts = false;
 force ace_arsenal_allowSharedLoadouts = false;
 force ace_arsenal_camInverted = false;
@@ -48,7 +48,7 @@ force ace_arsenal_loadoutsSaveFace = false;
 force ace_arsenal_loadoutsSaveInsignia = false;
 force ace_arsenal_loadoutsSaveVoice = false;
 
-// ACE ÐÑ€Ñ‚Ð¸Ð»Ð»ÐµÑ€Ð¸Ñ
+// ACE РђСЂС‚РёР»Р»РµСЂРёСЏ
 force ace_artillerytables_advancedCorrections = false;
 force ace_artillerytables_disableArtilleryComputer = true;
 force ace_mk6mortar_airResistanceEnabled = false;
@@ -56,7 +56,7 @@ force ace_mk6mortar_allowCompass = true;
 force ace_mk6mortar_allowComputerRangefinder = true;
 force ace_mk6mortar_useAmmoHandling = false;
 
-// ACE Ð‘ÐµÐ· ÐºÐ°Ñ‚ÐµÐ³Ð¾Ñ€Ð¸Ð¸
+// ACE Р‘РµР· РєР°С‚РµРіРѕСЂРёРё
 force ace_fastroping_autoAddFRIES = false;
 force ace_fastroping_requireRopeItems = true;
 force ace_gunbag_swapGunbagEnabled = true;
@@ -74,19 +74,19 @@ force ace_parachute_failureChance = 0;
 force ace_parachute_hideAltimeter = true;
 force ace_tagging_quickTag = 1;
 
-// ACE Ð‘Ð»Ð¾ÐºÐ¸Ñ€Ð¾Ð²ÐºÐ° Ñ‚Ñ€Ð°Ð½ÑÐ¿Ð¾Ñ€Ñ‚Ð°
+// ACE Р‘Р»РѕРєРёСЂРѕРІРєР° С‚СЂР°РЅСЃРїРѕСЂС‚Р°
 force ace_vehiclelock_defaultLockpickStrength = 10;
 force ace_vehiclelock_lockVehicleInventory = true;
 force ace_vehiclelock_vehicleStartingLockState = -1;
 
-// ACE Ð‘Ñ‹ÑÑ‚Ñ€Ð°Ñ Ð¿Ð¾ÑÐ°Ð´ÐºÐ°
+// ACE Р‘С‹СЃС‚СЂР°СЏ РїРѕСЃР°РґРєР°
 force ace_quickmount_distance = 3;
 force ace_quickmount_enabled = true;
 force ace_quickmount_enableMenu = 3;
 force ace_quickmount_priority = 0;
 force ace_quickmount_speed = 18;
 
-// ACE Ð’Ð·Ð°Ð¸Ð¼Ð¾Ð´ÐµÐ¹ÑÑ‚Ð²Ð¸Ðµ
+// ACE Р’Р·Р°РёРјРѕРґРµР№СЃС‚РІРёРµ
 force ace_interaction_disableNegativeRating = true;
 force ace_interaction_enableGroupRenaming = true;
 force ace_interaction_enableMagazinePassing = true;
@@ -94,7 +94,7 @@ force ace_interaction_enableTeamManagement = true;
 force ace_interaction_enableWeaponAttachments = true;
 force ace_interaction_interactWithTerrainObjects = false;
 
-// ACE Ð’Ð·Ñ€Ñ‹Ð²Ñ‡Ð°Ñ‚ÐºÐ°
+// ACE Р’Р·СЂС‹РІС‡Р°С‚РєР°
 force ace_explosives_customTimerDefault = 300;
 force ace_explosives_customTimerMax = 3600;
 force ace_explosives_customTimerMin = 60;
@@ -102,24 +102,24 @@ force ace_explosives_explodeOnDefuse = true;
 force ace_explosives_punishNonSpecialists = true;
 force ace_explosives_requireSpecialist = true;
 
-// ACE Ð’Ð¾Ð·Ð³Ð¾Ñ€Ð°Ð½Ð¸Ðµ
+// ACE Р’РѕР·РіРѕСЂР°РЅРёРµ
 force ace_fire_dropWeapon = 0;
 force ace_fire_enabled = true;
 force ace_fire_enableFlare = true;
 force ace_fire_enableScreams = true;
 
-// ACE Ð’Ð¾Ð·Ñ€Ð¾Ð¶Ð´ÐµÐ½Ð¸Ðµ
+// ACE Р’РѕР·СЂРѕР¶РґРµРЅРёРµ
 force ace_respawn_removeDeadBodiesDisconnected = false;
 force ace_respawn_savePreDeathGear = false;
 
-// ACE Ð“Ð¸Ð»ÑŒÐ·Ñ‹
+// ACE Р“РёР»СЊР·С‹
 force ace_casings_enabled = false;
 force ace_casings_maxCasings = 100;
 
-// ACE Ð“Ñ€Ð°Ð½Ð°Ñ‚Ñ‹
+// ACE Р“СЂР°РЅР°С‚С‹
 force ace_grenades_convertExplosives = true;
 
-// ACE Ð“Ñ€Ð¾Ð¼ÐºÐ¾ÑÑ‚ÑŒ
+// ACE Р“СЂРѕРјРєРѕСЃС‚СЊ
 force acex_volume_enabled = true;
 force acex_volume_fadeDelay = 8;
 force acex_volume_lowerInVehicles = true;
@@ -127,7 +127,7 @@ force acex_volume_reduction = 8;
 force acex_volume_remindIfLowered = false;
 force acex_volume_showNotification = true;
 
-// ACE Ð“Ñ€ÑƒÐ¿Ð¿Ð¾Ð²Ð¾Ðµ Ð²Ð¾Ð¾Ñ€ÑƒÐ¶ÐµÐ½Ð¸Ðµ (CSW)
+// ACE Р“СЂСѓРїРїРѕРІРѕРµ РІРѕРѕСЂСѓР¶РµРЅРёРµ (CSW)
 force ace_csw_ammoHandling = 1;
 force ace_csw_defaultAssemblyMode = true;
 force ace_csw_dragAfterDeploy = false;
@@ -135,7 +135,7 @@ force ace_csw_handleExtraMagazines = true;
 force ace_csw_handleExtraMagazinesType = 1;
 force ace_csw_progressBarTimeCoefficent = 1;
 
-// ACE Ð”ÐµÑ‚Ð¾Ð½Ð°Ñ†Ð¸Ñ
+// ACE Р”РµС‚РѕРЅР°С†РёСЏ
 force ace_cookoff_ammoCookoffDuration = 0.638484;
 force ace_cookoff_destroyVehicleAfterCookoff = true;
 force ace_cookoff_enable = 2;
@@ -144,7 +144,7 @@ force ace_cookoff_enableAmmoCookoff = true;
 force ace_cookoff_enableFire = true;
 force ace_cookoff_probabilityCoef = 0.351525;
 
-// ACE Ð–ÐµÑÑ‚Ñ‹ Ð½Ð° ÐºÐ°Ñ€Ñ‚Ðµ
+// ACE Р–РµСЃС‚С‹ РЅР° РєР°СЂС‚Рµ
 force ace_map_gestures_allowCurator = true;
 force ace_map_gestures_allowSpectator = true;
 force ace_map_gestures_briefingMode = 0;
@@ -157,7 +157,7 @@ force ace_map_gestures_maxRangeCamera = 14;
 force ace_map_gestures_nameTextColor = [0.2,0.2,0.2,0.3];
 force ace_map_gestures_onlyShowFriendlys = true;
 
-// ACE Ð—ÐµÐ²Ñ
+// ACE Р—РµРІСЃ
 force ace_zeus_autoAddObjects = true;
 force ace_zeus_canCreateZeus = -1;
 force ace_zeus_radioOrdnance = false;
@@ -166,16 +166,16 @@ force ace_zeus_revealMines = 0;
 force ace_zeus_zeusAscension = false;
 force ace_zeus_zeusBird = false;
 
-// ACE Ð—Ñ€Ð¸Ñ‚ÐµÐ»ÑŒ
+// ACE Р—СЂРёС‚РµР»СЊ
 force ace_spectator_enableAI = false;
 force ace_spectator_maxFollowDistance = 5;
 force ace_spectator_restrictModes = 2;
 force ace_spectator_restrictVisions = 0;
 
-// ACE Ð˜Ð˜
+// ACE РР
 force ace_ai_assignNVG = true;
 
-// ACE Ð˜Ð¼ÐµÐ½Ð° Ð¸Ð³Ñ€Ð¾ÐºÐ¾Ð²
+// ACE РРјРµРЅР° РёРіСЂРѕРєРѕРІ
 force ace_nametags_ambientBrightnessAffectViewDist = 1;
 force ace_nametags_defaultNametagColor = [0.77,0.51,0.08,1];
 force ace_nametags_nametagColorBlue = [0.2,0.2,1,1];
@@ -193,12 +193,12 @@ force ace_nametags_showSoundWaves = 1;
 force ace_nametags_showVehicleCrewInfo = false;
 force ace_nametags_tagSize = 3;
 
-// ACE Ð˜Ð½ÑÑ‚Ñ€ÑƒÐ¼ÐµÐ½Ñ‚Ñ‹ ÐºÐ°Ñ€Ñ‚Ñ‹
+// ACE РРЅСЃС‚СЂСѓРјРµРЅС‚С‹ РєР°СЂС‚С‹
 force ace_maptools_drawStraightLines = true;
 force ace_maptools_plottingBoardAllowChannelDrawing = 1;
 force ace_maptools_rotateModifierKey = 3;
 
-// ACE Ð˜Ð½Ñ‚ÐµÑ€Ñ„ÐµÐ¹Ñ
+// ACE РРЅС‚РµСЂС„РµР№СЃ
 force ace_ui_allowSelectiveUI = true;
 force ace_ui_ammoCount = false;
 force ace_ui_ammoType = true;
@@ -237,7 +237,7 @@ force ace_ui_weaponName = true;
 force ace_ui_weaponNameBackground = true;
 force ace_ui_zeroing = true;
 
-// ACE ÐšÐ°Ñ€Ñ‚Ð°
+// ACE РљР°СЂС‚Р°
 force ace_map_BFT_Enabled = false;
 force ace_map_BFT_HideAiGroups = false;
 force ace_map_BFT_Interval = 1;
@@ -256,7 +256,7 @@ force ace_markers_timestampTimezone = 0;
 force ace_markers_TimestampUTCMinutesOffset = 0;
 force ace_markers_timestampUTCOffset = 0;
 
-// ACE ÐœÐµÐ´Ð¸Ñ†Ð¸Ð½Ð°
+// ACE РњРµРґРёС†РёРЅР°
 force ace_medical_ai_enabledFor = 2;
 force ace_medical_ai_requireItems = 0;
 force ace_medical_AIDamageThreshold = 1.6;
@@ -327,7 +327,7 @@ force ace_medical_treatment_treatmentTimeTourniquet = 9;
 force ace_medical_treatment_woundReopenChance = 0.9;
 force ace_medical_treatment_woundStitchTime = 8;
 
-// ACE ÐœÐµÐ´Ð¸Ñ†Ð¸Ð½Ð° Ð˜Ð½Ñ‚ÐµÑ€Ñ„ÐµÐ¹Ñ
+// ACE РњРµРґРёС†РёРЅР° РРЅС‚РµСЂС„РµР№СЃ
 force ace_medical_feedback_bloodVolumeEffectType = 2;
 force ace_medical_feedback_enableHUDIndicators = true;
 force ace_medical_feedback_painEffectType = 0;
@@ -365,7 +365,7 @@ force ace_medical_gui_showBloodlossEntry = true;
 force ace_medical_gui_showDamageEntry = true;
 force ace_medical_gui_tourniquetWarning = true;
 
-// ACE ÐœÐµÐ½ÑŽ Ð²Ð·Ð°Ð¸Ð¼Ð¾Ð´ÐµÐ¹ÑÑ‚Ð²Ð¸Ñ
+// ACE РњРµРЅСЋ РІР·Р°РёРјРѕРґРµР№СЃС‚РІРёСЏ
 force ace_gestures_showOnInteractionMenu = 2;
 force ace_interact_menu_actionOnKeyRelease = true;
 force ace_interact_menu_addBuildingActions = false;
@@ -387,7 +387,7 @@ force ace_interact_menu_textSize = 2;
 force ace_interact_menu_useListMenu = true;
 force ace_interact_menu_useListMenuSelf = true;
 
-// ACE ÐžÐ±Ñ‰Ð¸Ðµ
+// ACE РћР±С‰РёРµ
 force ace_common_allowFadeMusic = true;
 force ace_common_checkPBOsAction = 2;
 force ace_common_checkPBOsCheckAll = true;
@@ -399,7 +399,7 @@ force ace_common_progressBarInfo = 2;
 force ace_common_settingFeedbackIcons = 1;
 force ace_common_settingProgressBarLocation = 0;
 
-// ACE ÐžÐ³Ñ€Ð°Ð½Ð¸Ñ‡ÐµÐ½Ð¸Ðµ Ð¾Ð±Ð·Ð¾Ñ€Ð°
+// ACE РћРіСЂР°РЅРёС‡РµРЅРёРµ РѕР±Р·РѕСЂР°
 force acex_viewrestriction_mode = 1;
 force acex_viewrestriction_modeSelectiveAir = 1;
 force acex_viewrestriction_modeSelectiveFoot = 1;
@@ -407,7 +407,7 @@ force acex_viewrestriction_modeSelectiveLand = 1;
 force acex_viewrestriction_modeSelectiveSea = 1;
 force acex_viewrestriction_preserveView = false;
 
-// ACE ÐžÐ³Ñ€Ð°Ð½Ð¸Ñ‡Ð¸Ñ‚ÐµÐ»ÑŒ Ð´Ð°Ð»ÑŒÐ½Ð¾ÑÑ‚Ð¸ Ð²Ð¸Ð´Ð¸Ð¼Ð¾ÑÑ‚Ð¸
+// ACE РћРіСЂР°РЅРёС‡РёС‚РµР»СЊ РґР°Р»СЊРЅРѕСЃС‚Рё РІРёРґРёРјРѕСЃС‚Рё
 force ace_viewdistance_enabled = false;
 force ace_viewdistance_limitViewDistance = 500;
 force ace_viewdistance_objectViewDistanceCoeff = 0;
@@ -415,30 +415,30 @@ force ace_viewdistance_viewDistanceAirVehicle = 0;
 force ace_viewdistance_viewDistanceLandVehicle = 0;
 force ace_viewdistance_viewDistanceOnFoot = 0;
 
-// ACE ÐžÐºÐ¾Ð¿Ñ‹
+// ACE РћРєРѕРїС‹
 force ace_trenches_bigEnvelopeDigDuration = 25;
 force ace_trenches_bigEnvelopeRemoveDuration = 15;
 force ace_trenches_smallEnvelopeDigDuration = 20;
 force ace_trenches_smallEnvelopeRemoveDuration = 12;
 
-// ACE ÐžÑ€ÑƒÐ¶Ð¸Ðµ
+// ACE РћСЂСѓР¶РёРµ
 force ace_common_persistentLaserEnabled = true;
 force ace_reload_displayText = true;
 force ace_reload_showCheckAmmoSelf = true;
 ace_reloadlaunchers_displayStatusText = true;
 force ace_weaponselect_displayText = true;
 
-// ACE ÐžÑ‚ÐºÐ»Ð¾Ð½ÐµÐ½Ð¸Ðµ Ð²ÐµÑ‚Ñ€Ð¾Ð¼
+// ACE РћС‚РєР»РѕРЅРµРЅРёРµ РІРµС‚СЂРѕРј
 force ace_winddeflection_enabled = false;
 force ace_winddeflection_simulationInterval = 0.05;
 force ace_winddeflection_vehicleEnabled = false;
 
-// ACE ÐžÑ‡ÐºÐ¸
+// ACE РћС‡РєРё
 force ace_goggles_effects = 0;
 force ace_goggles_showClearGlasses = false;
 force ace_goggles_showInThirdPerson = false;
 
-// ACE ÐŸÐÐ’
+// ACE РџРќР’
 force ace_nightvision_aimDownSightsBlur = 0;
 force ace_nightvision_disableNVGsWithSights = false;
 force ace_nightvision_effectScaling = 0.1;
@@ -446,7 +446,7 @@ force ace_nightvision_fogScaling = 0.111914;
 force ace_nightvision_noiseScaling = 0.0975673;
 force ace_nightvision_shutterEffects = false;
 
-// ACE ÐŸÐµÑ€ÐµÐ³Ñ€ÐµÐ²
+// ACE РџРµСЂРµРіСЂРµРІ
 force ace_overheating_cookoffCoef = 0.85;
 force ace_overheating_coolingCoef = 1.25;
 force ace_overheating_displayTextOnJam = true;
@@ -463,11 +463,11 @@ force ace_overheating_unJamFailChance = 0.15;
 force ace_overheating_unJamOnreload = false;
 force ace_overheating_unJamOnSwapBarrel = false;
 
-// ACE ÐŸÐµÑ€ÐµÐ³Ñ€ÑƒÐ·ÐºÐ¸
+// ACE РџРµСЂРµРіСЂСѓР·РєРё
 force ace_gforces_coef = 0.3;
 force ace_gforces_enabledFor = 1;
 
-// ACE ÐŸÐµÑ€ÐµÐºÐ»ÑŽÑ‡ÐµÐ½Ð¸Ðµ ÑŽÐ½Ð¸Ñ‚Ð¾Ð²
+// ACE РџРµСЂРµРєР»СЋС‡РµРЅРёРµ СЋРЅРёС‚РѕРІ
 force ace_switchunits_enableSafeZone = false;
 force ace_switchunits_enableSwitchUnits = false;
 force ace_switchunits_safeZoneRadius = 0;
@@ -476,20 +476,20 @@ force ace_switchunits_switchToEast = false;
 force ace_switchunits_switchToIndependent = false;
 force ace_switchunits_switchToWest = false;
 
-// ACE ÐŸÐµÑ€ÐµÐ¿Ð°ÐºÐ¾Ð²ÐºÐ° Ð¼Ð°Ð³Ð°Ð·Ð¸Ð½Ð¾Ð²
+// ACE РџРµСЂРµРїР°РєРѕРІРєР° РјР°РіР°Р·РёРЅРѕРІ
 force ace_magazinerepack_repackAnimation = true;
 force ace_magazinerepack_repackLoadedMagazines = true;
 force ace_magazinerepack_timePerAmmo = 1;
 force ace_magazinerepack_timePerBeltLink = 4;
 force ace_magazinerepack_timePerMagazine = 1;
 
-// ACE ÐŸÐµÑ€ÐµÑ‚Ð°ÑÐºÐ¸Ð²Ð°Ð½Ð¸Ðµ
+// ACE РџРµСЂРµС‚Р°СЃРєРёРІР°РЅРёРµ
 force ace_dragging_allowRunWithLightweight = true;
 force ace_dragging_dragAndFire = true;
 force ace_dragging_skipContainerWeight = false;
 force ace_dragging_weightCoefficient = 1.75;
 
-// ACE ÐŸÐ¸Ð»Ð¾Ð½Ñ‹
+// ACE РџРёР»РѕРЅС‹
 force ace_pylons_enabledForZeus = true;
 force ace_pylons_enabledFromAmmoTrucks = true;
 force ace_pylons_rearmNewPylons = true;
@@ -498,19 +498,19 @@ force ace_pylons_requireToolkit = true;
 force ace_pylons_searchDistance = 30;
 force ace_pylons_timePerPylon = 10;
 
-// ACE ÐŸÐ»ÐµÐ½Ð½Ñ‹Ðµ
+// ACE РџР»РµРЅРЅС‹Рµ
 force ace_captives_allowHandcuffOwnSide = true;
 force ace_captives_allowSurrender = true;
 force ace_captives_requireSurrender = 1;
 force ace_captives_requireSurrenderAi = true;
 
-// ACE ÐŸÐ¾Ð³Ð¾Ð´Ð°
+// ACE РџРѕРіРѕРґР°
 force ace_weather_enabled = false;
 force ace_weather_showCheckAirTemperature = false;
 force ace_weather_updateInterval = 60;
 force ace_weather_windSimulation = false;
 
-// ACE ÐŸÐ¾Ð»ÐµÐ²Ñ‹Ðµ Ñ€Ð°Ñ†Ð¸Ð¾Ð½Ñ‹
+// ACE РџРѕР»РµРІС‹Рµ СЂР°С†РёРѕРЅС‹
 force acex_field_rations_affectAdvancedFatigue = false;
 force acex_field_rations_enabled = false;
 force acex_field_rations_hudShowLevel = 0;
@@ -523,7 +523,7 @@ force acex_field_rations_timeWithoutFood = 2.4;
 force acex_field_rations_timeWithoutWater = 2.4;
 force acex_field_rations_waterSourceActions = 2;
 
-// ACE ÐŸÑ€Ð¸Ñ†ÐµÐ»Ñ‹
+// ACE РџСЂРёС†РµР»С‹
 force ace_scopes_correctZeroing = true;
 force ace_scopes_deduceBarometricPressureFromTerrainAltitude = false;
 force ace_scopes_defaultZeroRange = 100;
@@ -536,7 +536,7 @@ force ace_scopes_zeroReferenceBarometricPressure = 1013.25;
 force ace_scopes_zeroReferenceHumidity = 0;
 force ace_scopes_zeroReferenceTemperature = 15;
 
-// ACE ÐŸÑ€Ð¾Ð´Ð²Ð¸Ð½ÑƒÑ‚Ð°Ñ Ð±Ð°Ð»Ð»Ð¸ÑÑ‚Ð¸ÐºÐ°
+// ACE РџСЂРѕРґРІРёРЅСѓС‚Р°СЏ Р±Р°Р»Р»РёСЃС‚РёРєР°
 force ace_advanced_ballistics_ammoTemperatureEnabled = false;
 force ace_advanced_ballistics_barrelLengthInfluenceEnabled = false;
 force ace_advanced_ballistics_bulletTraceEnabled = false;
@@ -544,7 +544,7 @@ force ace_advanced_ballistics_enabled = false;
 force ace_advanced_ballistics_muzzleVelocityVariationEnabled = false;
 force ace_advanced_ballistics_simulationInterval = 0.05;
 
-// ACE ÐŸÑ€Ð¾Ð´Ð²Ð¸Ð½ÑƒÑ‚Ð°Ñ ÑƒÑÑ‚Ð°Ð»Ð¾ÑÑ‚ÑŒ
+// ACE РџСЂРѕРґРІРёРЅСѓС‚Р°СЏ СѓСЃС‚Р°Р»РѕСЃС‚СЊ
 force ace_advanced_fatigue_deployedSwayFactor = 0.1;
 force ace_advanced_fatigue_enabled = true;
 force ace_advanced_fatigue_enableStaminaBar = true;
@@ -556,12 +556,12 @@ force ace_advanced_fatigue_restedSwayFactor = 0.1;
 force ace_advanced_fatigue_swayFactor = 0.3;
 force ace_advanced_fatigue_terrainGradientFactor = 1.1;
 
-// ACE ÐŸÑ€Ð¾Ð´Ð²Ð¸Ð½ÑƒÑ‚Ð¾Ðµ Ð¿Ð¾Ð²Ñ€ÐµÐ¶Ð´ÐµÐ½Ð¸Ðµ Ñ‚ÐµÑ…Ð½Ð¸ÐºÐ¸
+// ACE РџСЂРѕРґРІРёРЅСѓС‚РѕРµ РїРѕРІСЂРµР¶РґРµРЅРёРµ С‚РµС…РЅРёРєРё
 force ace_vehicle_damage_enableCarDamage = false;
 force ace_vehicle_damage_enabled = true;
 force ace_vehicle_damage_removeAmmoDuringCookoff = true;
 
-// ACE Ð ÐµÐ¼Ð¾Ð½Ñ‚
+// ACE Р РµРјРѕРЅС‚
 force ace_repair_addSpareParts = true;
 force ace_repair_autoShutOffEngineWhenStartingRepair = true;
 force ace_repair_consumeItem_toolKit = 0;
@@ -586,17 +586,17 @@ force ace_repair_timeCoefficientFullRepair = 1.5;
 force ace_repair_wheelChangeTime = 15;
 force ace_repair_wheelRepairRequiredItems = [];
 
-// ACE Ð¡Ð¸Ð´ÐµÐ½Ð¸Ðµ
+// ACE РЎРёРґРµРЅРёРµ
 force acex_sitting_enable = true;
 
-// ACE Ð¡Ð¸Ð¼ÑƒÐ»ÑÑ†Ð¸Ñ Ð¾ÑÐºÐ¾Ð»ÐºÐ¾Ð²
+// ACE РЎРёРјСѓР»СЏС†РёСЏ РѕСЃРєРѕР»РєРѕРІ
 force ace_frag_enabled = true;
 force ace_frag_maxTrack = 30;
 force ace_frag_maxTrackPerFrame = 30;
 force ace_frag_reflectionsEnabled = true;
 force ace_frag_spallEnabled = true;
 
-// ACE Ð¡Ð»ÑƒÑ…
+// ACE РЎР»СѓС…
 force ace_hearing_autoAddEarplugsToUnits = true;
 force ace_hearing_disableEarRinging = true;
 force ace_hearing_earplugsVolume = 1;
@@ -604,14 +604,14 @@ force ace_hearing_enableCombatDeafness = true;
 force ace_hearing_enabledForZeusUnits = true;
 force ace_hearing_unconsciousnessVolume = 1;
 
-// ACE Ð¢Ñ€Ð°Ð½ÑÐ¿Ð¾Ñ€Ñ‚
+// ACE РўСЂР°РЅСЃРїРѕСЂС‚
 force ace_novehicleclanlogo_enabled = true;
 ace_vehicles_hideEjectAction = true;
 force ace_vehicles_keepEngineRunning = true;
 force ace_vehicles_speedLimiterStep = 5;
 force ace_viewports_enabled = true;
 
-// ACE Ð£ÐºÐ°Ð·Ð°Ð½Ð¸Ðµ Ð¿Ð°Ð»ÑŒÑ†ÐµÐ¼
+// ACE РЈРєР°Р·Р°РЅРёРµ РїР°Р»СЊС†РµРј
 force ace_finger_enabled = true;
 force ace_finger_indicatorColor = [1,0,0,0.75];
 force ace_finger_indicatorForSelf = true;
@@ -619,27 +619,27 @@ force ace_finger_maxRange = 4;
 force ace_finger_proximityScaling = false;
 force ace_finger_sizeCoef = 1;
 
-// ACE Ð£Ð»ÑƒÑ‡ÑˆÐµÐ½Ð½Ñ‹Ð¹ Ð±Ñ€Ð¾ÑÐ¾Ðº Ð³Ñ€Ð°Ð½Ð°Ñ‚
+// ACE РЈР»СѓС‡С€РµРЅРЅС‹Р№ Р±СЂРѕСЃРѕРє РіСЂР°РЅР°С‚
 force ace_advanced_throwing_enabled = true;
 force ace_advanced_throwing_enablePickUp = true;
 force ace_advanced_throwing_enablePickUpAttached = true;
 force ace_advanced_throwing_showMouseControls = true;
 force ace_advanced_throwing_showThrowArc = true;
 
-// ACE Ð¤Ð¾Ñ€Ñ‚Ð¸Ñ„Ð¸ÐºÐ°Ñ†Ð¸Ñ
+// ACE Р¤РѕСЂС‚РёС„РёРєР°С†РёСЏ
 force ace_fortify_markObjectsOnMap = 1;
 force ace_fortify_timeCostCoefficient = 1;
 force ace_fortify_timeMin = 1.5;
 force acex_fortify_settingHint = 0;
 
-// ACE Headless ÐºÐ»Ð¸ÐµÐ½Ñ‚
+// ACE Headless РєР»РёРµРЅС‚
 force acex_headless_delay = 0;
 force acex_headless_enabled = false;
 force acex_headless_endMission = 0;
 force acex_headless_log = false;
 force acex_headless_transferLoadout = 0;
 
-// ACE: Ð»Ð¾Ð³Ð¸ÑÑ‚Ð¸ÐºÐ°
+// ACE: Р»РѕРіРёСЃС‚РёРєР°
 force ace_cargo_carryAfterUnload = true;
 force ace_cargo_enable = true;
 force ace_cargo_enableRename = true;
@@ -778,7 +778,7 @@ force crowsza_zeus_text_CBA_Setting_zeusTextLine1 = true;
 force crowsza_zeus_text_CBA_Setting_zeusTextLine2 = true;
 force crowsza_zeus_text_CBA_Setting_zeusTextLine3 = true;
 
-// DUI - Ð Ð°Ð´Ð°Ñ€ ÐºÐ¾Ð¼Ð°Ð½Ð´Ñ‹ - Ð˜Ð¼ÐµÐ½Ð½Ñ‹Ðµ Ð¶ÐµÑ‚Ð¾Ð½Ñ‹
+// DUI - Р Р°РґР°СЂ РєРѕРјР°РЅРґС‹ - РРјРµРЅРЅС‹Рµ Р¶РµС‚РѕРЅС‹
 force diwako_dui_nametags_customRankStyle = "[[""PRIVATE"",""CORPORAL"",""SERGEANT"",""LIEUTENANT"",""CAPTAIN"",""MAJOR"",""COLONEL""],[""Pvt."",""Cpl."",""Sgt."",""Lt."",""Capt."",""Maj."",""Col.""]]";
 force diwako_dui_nametags_deadColor = [0.2,0.2,0.2,1];
 force diwako_dui_nametags_deadRenderDistance = 3.5;
@@ -803,7 +803,7 @@ force diwako_dui_nametags_showUnconAsDead = false;
 force diwako_dui_nametags_useLIS = false;
 force diwako_dui_nametags_useSideIsFriendly = false;
 
-// DUI - Ð Ð°Ð´Ð°Ñ€ ÐºÐ¾Ð¼Ð°Ð½Ð´Ñ‹ - Ð˜Ð½Ð´Ð¸ÐºÐ°Ñ‚Ð¾Ñ€Ñ‹
+// DUI - Р Р°РґР°СЂ РєРѕРјР°РЅРґС‹ - РРЅРґРёРєР°С‚РѕСЂС‹
 force diwako_dui_indicators_crew_range_enabled = false;
 force diwako_dui_indicators_fov_scale = false;
 force diwako_dui_indicators_icon_buddy = false;
@@ -817,7 +817,7 @@ force diwako_dui_indicators_size = 1;
 force diwako_dui_indicators_style = "standard";
 force diwako_dui_indicators_useACENametagsRange = true;
 
-// DUI - Ð Ð°Ð´Ð°Ñ€ ÐºÐ¾Ð¼Ð°Ð½Ð´Ñ‹ - ÐžÑÐ½Ð¾Ð²Ð½Ð¾Ðµ
+// DUI - Р Р°РґР°СЂ РєРѕРјР°РЅРґС‹ - РћСЃРЅРѕРІРЅРѕРµ
 force diwako_dui_ace_hide_interaction = true;
 force diwako_dui_colors = "ace";
 force diwako_dui_font = "PuristaMedium";
@@ -832,7 +832,7 @@ force diwako_dui_main_squadYellow = [1,1,0,1];
 force diwako_dui_main_trackingColor = [0.93,0.26,0.93,1];
 force diwako_dui_reset_ui_pos = false;
 
-// DUI - Ð Ð°Ð´Ð°Ñ€ ÐºÐ¾Ð¼Ð°Ð½Ð´Ñ‹ - Ð Ð°Ð´Ð°Ñ€
+// DUI - Р Р°РґР°СЂ РєРѕРјР°РЅРґС‹ - Р Р°РґР°СЂ
 force diwako_dui_compass_hide_alone_group = false;
 force diwako_dui_compass_hide_blip_alone_group = false;
 force diwako_dui_compass_icon_scale = 1;
@@ -953,7 +953,7 @@ force FPV_DefaultText = "BOBR";
 force FPV_isUavCaptive = false;
 force FPV_MaxFlightDistance = 1500;
 
-// GRAD Ð¾ÐºÐ¾Ð¿Ñ‹
+// GRAD РѕРєРѕРїС‹
 force grad_trenches_functions_allowBigEnvelope = true;
 force grad_trenches_functions_allowCamouflage = true;
 force grad_trenches_functions_allowDigging = true;
@@ -1216,8 +1216,6 @@ force mts_cutter_grasscutter_size = 1;
 force mts_drill_UIEnabled = false;
 force mts_flags_enableCarrying = false;
 force mts_flags_enablePlacing = false;
-force mts_zeus_enable3DENComments = true;
-force mts_zeus_enableACEUnconsciousIcon = true;
 
 // No More Aircraft Bouncing
 force NMAB_setting_classExclusionsStr = "";
@@ -1421,7 +1419,7 @@ force sbs_setting_main = true;
 force sbs_setting_radio = true;
 force sbs_setting_vehicle_pen = true;
 
-// TFAR - Ð“Ð»Ð¾Ð±Ð°Ð»ÑŒÐ½Ñ‹Ðµ Ð½Ð°ÑÑ‚Ñ€Ð¾Ð¹ÐºÐ¸
+// TFAR - Р“Р»РѕР±Р°Р»СЊРЅС‹Рµ РЅР°СЃС‚СЂРѕР№РєРё
 force TFAR_AICanHearPlayer = true;
 force TFAR_AICanHearSpeaker = true;
 force TFAR_allowDebugging = true;
@@ -1474,7 +1472,7 @@ force TFAR_Teamspeak_Channel_Password = "123";
 force tfar_terrain_interception_coefficient = 8;
 force TFAR_voiceCone = true;
 
-// TFAR - ÐÐ°ÑÑ‚Ñ€Ð¾Ð¹ÐºÐ¸ ÐºÐ»Ð¸ÐµÐ½Ñ‚Ð°
+// TFAR - РќР°СЃС‚СЂРѕР№РєРё РєР»РёРµРЅС‚Р°
 force TFAR_curatorCamEars = true;
 TFAR_default_radioVolume = 6;
 TFAR_intercomDucking = 0.2;
@@ -1664,7 +1662,7 @@ force zen_vision_enableRedHotCold = false;
 force zen_vision_enableWhiteHot = true;
 force zen_vision_enableWhiteHotRedCold = false;
 
-// Zeus Enhanced - ÐÑ‚Ñ€Ð¸Ð±ÑƒÑ‚Ñ‹
+// Zeus Enhanced - РђС‚СЂРёР±СѓС‚С‹
 force zen_attributes_enableAbilities = true;
 force zen_attributes_enableAmmo = true;
 force zen_attributes_enableArsenal = true;
