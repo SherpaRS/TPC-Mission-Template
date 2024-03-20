@@ -25,10 +25,10 @@ force A3TI_ACE_JAVELIN = true;
 force A3TI_ALLOW_TANK_DRIVER = true;
 force A3TI_ALLOW_VANILLA_TI = false;
 force A3TI_ENABLE_ZEUS = false;
-force A3TI_HD_VISION_FIGHTER = true;
-force A3TI_HD_VISION_LANDVEH = true;
-force A3TI_HD_VISION_SHIP = true;
-force A3TI_HD_VISION_UAV = true;
+force A3TI_HD_VISION_FIGHTER = false;
+force A3TI_HD_VISION_LANDVEH = false;
+force A3TI_HD_VISION_SHIP = false;
+force A3TI_HD_VISION_UAV = false;
 force A3TI_REMOVE_FILMGRAIN_RHS = true;
 
 // Aaren's Blast Effect
@@ -268,7 +268,7 @@ force ace_medical_deathChance = 0.35;
 force ace_medical_dropWeaponUnconsciousChance = 0;
 force ace_medical_enableVehicleCrashes = false;
 force ace_medical_engine_damagePassThroughEffect = 1;
-force ace_medical_fatalDamageSource = 2;
+force ace_medical_fatalDamageSource = 0;
 force ace_medical_fractureChance = 0.7;
 force ace_medical_fractures = 2;
 force ace_medical_ivFlowRate = 1.2;
@@ -778,6 +778,19 @@ force crowsza_zeus_text_CBA_Setting_zeusTextLine1 = true;
 force crowsza_zeus_text_CBA_Setting_zeusTextLine2 = true;
 force crowsza_zeus_text_CBA_Setting_zeusTextLine3 = true;
 
+// Death && Hit Reactions
+force WBK_DeathAnimMod_Death_Chance = "0";
+force WBK_DeathAnimMod_Deaths_AI = false;
+force WBK_DeathAnimMod_Deaths_HUGEANIMS = false;
+force WBK_DeathAnimMod_Deaths_NECKSHOTS = false;
+force WBK_DeathAnimMod_Deaths_PLR = false;
+force WBK_DeathAnimMod_Flinch_AI = false;
+force WBK_DeathAnimMod_Flinch_PLR = false;
+force WBK_DeathAnimMod_Hit_AI = false;
+force WBK_DeathAnimMod_Hit_Chance = "0";
+force WBK_DeathAnimMod_Hit_Chance_PLR = "0";
+force WBK_DeathAnimMod_Hit_PLR = false;
+
 // DUI - Р Р°РґР°СЂ РєРѕРјР°РЅРґС‹ - РРјРµРЅРЅС‹Рµ Р¶РµС‚РѕРЅС‹
 force diwako_dui_nametags_customRankStyle = "[[""PRIVATE"",""CORPORAL"",""SERGEANT"",""LIEUTENANT"",""CAPTAIN"",""MAJOR"",""COLONEL""],[""Pvt."",""Cpl."",""Sgt."",""Lt."",""Capt."",""Maj."",""Col.""]]";
 force diwako_dui_nametags_deadColor = [0.2,0.2,0.2,1];
@@ -1024,6 +1037,7 @@ force grad_civs_lifecycle_spawnCandidateHeightLimit = 200;
 force grad_civs_lifecycle_spawnCandidateLimitEnabled = true;
 force grad_civs_lifecycle_spawnCandidateSpeedLimit = 100;
 force grad_civs_lifecycle_spawnOnlyWithPlayers = true;
+grad_civs_lifecycle_spawnRate = 0.5;
 force grad_civs_loadout_backpackProbability = 0.5;
 force grad_civs_loadout_backpacks = "[]";
 force grad_civs_loadout_clothes = "[]";
@@ -1044,6 +1058,11 @@ force grad_civs_transit_vehicles = "['RDS_Van_01_Transport_F', 'RDS_Golf4_Civ_01
 force grad_civs_voyage_maxCivsInVehicles = 20;
 force grad_civs_voyage_maxTravelRadius = 0;
 force grad_civs_voyage_spawnDistancesInVehicles = "[300, 3000]";
+
+// GRAD Pace Count Beads
+force grad_paceCountBeads_functions_allowPaceCountBeads = true;
+force grad_paceCountBeads_functions_constantlyShow = false;
+force grad_paceCountBeads_functions_showOnChange = false;
 
 // GRAD Save Markers
 force GRAD_saveMarkers_setting_canBeOpened = 0;

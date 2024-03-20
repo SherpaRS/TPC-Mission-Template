@@ -19,7 +19,7 @@ class EditorData
 	};
 	class ItemIDProvider
 	{
-		nextID=74;
+		nextID=76;
 	};
 	class MarkerIDProvider
 	{
@@ -27,10 +27,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={3446.7212,41.101982,2119.897};
-		dir[]={0.025831444,-0.87348801,0.48615989};
-		up[]={0.046346221,0.48684567,0.87225759};
-		aside[]={0.99859142,0,-0.053058796};
+		pos[]={3432.5801,24.376434,2134.2351};
+		dir[]={-0.10966831,-0.84903264,0.51683283};
+		up[]={-0.17623487,0.52833939,0.83054054};
+		aside[]={0.97822058,2.2409949e-09,0.20757152};
 	};
 };
 binarizationWanted=0;
@@ -260,7 +260,7 @@ class CustomAttributes
 								singleType="ARRAY";
 								class value
 								{
-									items=1616;
+									items=1619;
 									class Item0
 									{
 										class data
@@ -13189,6 +13189,30 @@ class CustomAttributes
 											value="stx_civilians_cachingdistance";
 										};
 									};
+									class Item1616
+									{
+										class data
+										{
+											singleType="STRING";
+											value="grad_pacecountbeads_functions_allowpacecountbeads";
+										};
+									};
+									class Item1617
+									{
+										class data
+										{
+											singleType="STRING";
+											value="grad_pacecountbeads_functions_constantlyshow";
+										};
+									};
+									class Item1618
+									{
+										class data
+										{
+											singleType="STRING";
+											value="grad_pacecountbeads_functions_showonchange";
+										};
+									};
 								};
 							};
 						};
@@ -13199,7 +13223,7 @@ class CustomAttributes
 								singleType="ARRAY";
 								class value
 								{
-									items=1616;
+									items=1619;
 									class Item0
 									{
 										class data
@@ -15116,7 +15140,7 @@ class CustomAttributes
 													class data
 													{
 														singleType="BOOL";
-														value=1;
+														value=0;
 													};
 												};
 												class Item1
@@ -15143,7 +15167,7 @@ class CustomAttributes
 													class data
 													{
 														singleType="BOOL";
-														value=1;
+														value=0;
 													};
 												};
 												class Item1
@@ -15170,7 +15194,7 @@ class CustomAttributes
 													class data
 													{
 														singleType="STRING";
-														value="30";
+														value="0";
 													};
 												};
 												class Item1
@@ -19984,7 +20008,7 @@ class CustomAttributes
 													class data
 													{
 														singleType="STRING";
-														value="LCD14";
+														value="PuristaMedium";
 													};
 												};
 												class Item1
@@ -20011,7 +20035,7 @@ class CustomAttributes
 													class data
 													{
 														singleType="STRING";
-														value="everlight";
+														value="nato";
 													};
 												};
 												class Item1
@@ -20038,7 +20062,7 @@ class CustomAttributes
 													class data
 													{
 														singleType="STRING";
-														value="protanopia";
+														value="ace";
 													};
 												};
 												class Item1
@@ -25950,7 +25974,7 @@ class CustomAttributes
 													class data
 													{
 														singleType="BOOL";
-														value=1;
+														value=0;
 													};
 												};
 												class Item1
@@ -25977,7 +26001,7 @@ class CustomAttributes
 													class data
 													{
 														singleType="BOOL";
-														value=1;
+														value=0;
 													};
 												};
 												class Item1
@@ -26004,7 +26028,7 @@ class CustomAttributes
 													class data
 													{
 														singleType="BOOL";
-														value=1;
+														value=0;
 													};
 												};
 												class Item1
@@ -26031,7 +26055,7 @@ class CustomAttributes
 													class data
 													{
 														singleType="BOOL";
-														value=1;
+														value=0;
 													};
 												};
 												class Item1
@@ -47810,7 +47834,7 @@ class CustomAttributes
 													class data
 													{
 														singleType="SCALAR";
-														value=2;
+														value=0;
 													};
 												};
 												class Item1
@@ -58997,6 +59021,87 @@ class CustomAttributes
 											};
 										};
 									};
+									class Item1616
+									{
+										class data
+										{
+											singleType="ARRAY";
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														singleType="BOOL";
+														value=1;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item1617
+									{
+										class data
+										{
+											singleType="ARRAY";
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														singleType="BOOL";
+														value=0;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item1618
+									{
+										class data
+										{
+											singleType="ARRAY";
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														singleType="BOOL";
+														value=0;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=1;
+													};
+												};
+											};
+										};
+									};
 								};
 							};
 						};
@@ -59014,722 +59119,6 @@ class CustomAttributes
 		};
 		class Attribute2
 		{
-			property="mts_zeus_3denComments";
-			expression="false";
-			class Value
-			{
-				class data
-				{
-					singleType="ARRAY";
-					class value
-					{
-						items=10;
-						class Item0
-						{
-							class data
-							{
-								singleType="ARRAY";
-								class value
-								{
-									items=4;
-									class Item0
-									{
-										class data
-										{
-											singleType="SCALAR";
-											value=11;
-										};
-									};
-									class Item1
-									{
-										class data
-										{
-											singleType="STRING";
-											value="Слот Зевса для администрации.";
-										};
-									};
-									class Item2
-									{
-										class data
-										{
-											singleType="STRING";
-											value="";
-										};
-									};
-									class Item3
-									{
-										class data
-										{
-											singleType="ARRAY";
-											class value
-											{
-												items=3;
-												class Item0
-												{
-													class data
-													{
-														singleType="SCALAR";
-														value=3434.988;
-													};
-												};
-												class Item1
-												{
-													class data
-													{
-														singleType="SCALAR";
-														value=2141.1001;
-													};
-												};
-												class Item2
-												{
-													class data
-													{
-														singleType="SCALAR";
-														value=5;
-													};
-												};
-											};
-										};
-									};
-								};
-							};
-						};
-						class Item1
-						{
-							class data
-							{
-								singleType="ARRAY";
-								class value
-								{
-									items=4;
-									class Item0
-									{
-										class data
-										{
-											singleType="SCALAR";
-											value=12;
-										};
-									};
-									class Item1
-									{
-										class data
-										{
-											singleType="STRING";
-											value="Слоты наблюдателей для администрации.";
-										};
-									};
-									class Item2
-									{
-										class data
-										{
-											singleType="STRING";
-											value="";
-										};
-									};
-									class Item3
-									{
-										class data
-										{
-											singleType="ARRAY";
-											class value
-											{
-												items=3;
-												class Item0
-												{
-													class data
-													{
-														singleType="SCALAR";
-														value=3431.5291;
-													};
-												};
-												class Item1
-												{
-													class data
-													{
-														singleType="SCALAR";
-														value=2141.1111;
-													};
-												};
-												class Item2
-												{
-													class data
-													{
-														singleType="SCALAR";
-														value=5;
-													};
-												};
-											};
-										};
-									};
-								};
-							};
-						};
-						class Item2
-						{
-							class data
-							{
-								singleType="ARRAY";
-								class value
-								{
-									items=4;
-									class Item0
-									{
-										class data
-										{
-											singleType="SCALAR";
-											value=18;
-										};
-									};
-									class Item1
-									{
-										class data
-										{
-											singleType="STRING";
-											value="Задача, которую видно в спектаторе.";
-										};
-									};
-									class Item2
-									{
-										class data
-										{
-											singleType="STRING";
-											value="";
-										};
-									};
-									class Item3
-									{
-										class data
-										{
-											singleType="ARRAY";
-											class value
-											{
-												items=3;
-												class Item0
-												{
-													class data
-													{
-														singleType="SCALAR";
-														value=3435.8726;
-													};
-												};
-												class Item1
-												{
-													class data
-													{
-														singleType="SCALAR";
-														value=2131.8843;
-													};
-												};
-												class Item2
-												{
-													class data
-													{
-														singleType="SCALAR";
-														value=5;
-													};
-												};
-											};
-										};
-									};
-								};
-							};
-						};
-						class Item3
-						{
-							class data
-							{
-								singleType="ARRAY";
-								class value
-								{
-									items=4;
-									class Item0
-									{
-										class data
-										{
-											singleType="SCALAR";
-											value=33;
-										};
-									};
-									class Item1
-									{
-										class data
-										{
-											singleType="STRING";
-											value="Модуль стартовой разминки.";
-										};
-									};
-									class Item2
-									{
-										class data
-										{
-											singleType="STRING";
-											value="";
-										};
-									};
-									class Item3
-									{
-										class data
-										{
-											singleType="ARRAY";
-											class value
-											{
-												items=3;
-												class Item0
-												{
-													class data
-													{
-														singleType="SCALAR";
-														value=3422.3555;
-													};
-												};
-												class Item1
-												{
-													class data
-													{
-														singleType="SCALAR";
-														value=2140.6631;
-													};
-												};
-												class Item2
-												{
-													class data
-													{
-														singleType="SCALAR";
-														value=5;
-													};
-												};
-											};
-										};
-									};
-								};
-							};
-						};
-						class Item4
-						{
-							class data
-							{
-								singleType="ARRAY";
-								class value
-								{
-									items=4;
-									class Item0
-									{
-										class data
-										{
-											singleType="SCALAR";
-											value=34;
-										};
-									};
-									class Item1
-									{
-										class data
-										{
-											singleType="STRING";
-											value="Хедлесс клиент для уменьшения нагрузки со стороны ИИ.";
-										};
-									};
-									class Item2
-									{
-										class data
-										{
-											singleType="STRING";
-											value="";
-										};
-									};
-									class Item3
-									{
-										class data
-										{
-											singleType="ARRAY";
-											class value
-											{
-												items=3;
-												class Item0
-												{
-													class data
-													{
-														singleType="SCALAR";
-														value=3428.509;
-													};
-												};
-												class Item1
-												{
-													class data
-													{
-														singleType="SCALAR";
-														value=2141.188;
-													};
-												};
-												class Item2
-												{
-													class data
-													{
-														singleType="SCALAR";
-														value=5;
-													};
-												};
-											};
-										};
-									};
-								};
-							};
-						};
-						class Item5
-						{
-							class data
-							{
-								singleType="ARRAY";
-								class value
-								{
-									items=4;
-									class Item0
-									{
-										class data
-										{
-											singleType="SCALAR";
-											value=63;
-										};
-									};
-									class Item1
-									{
-										class data
-										{
-											singleType="STRING";
-											value="Маркер видимый всем сторонам.";
-										};
-									};
-									class Item2
-									{
-										class data
-										{
-											singleType="STRING";
-											value="";
-										};
-									};
-									class Item3
-									{
-										class data
-										{
-											singleType="ARRAY";
-											class value
-											{
-												items=3;
-												class Item0
-												{
-													class data
-													{
-														singleType="SCALAR";
-														value=3475.9368;
-													};
-												};
-												class Item1
-												{
-													class data
-													{
-														singleType="SCALAR";
-														value=2142.9204;
-													};
-												};
-												class Item2
-												{
-													class data
-													{
-														singleType="SCALAR";
-														value=5;
-													};
-												};
-											};
-										};
-									};
-								};
-							};
-						};
-						class Item6
-						{
-							class data
-							{
-								singleType="ARRAY";
-								class value
-								{
-									items=4;
-									class Item0
-									{
-										class data
-										{
-											singleType="SCALAR";
-											value=65;
-										};
-									};
-									class Item1
-									{
-										class data
-										{
-											singleType="STRING";
-											value="Маркер видимый только BLUFOR.";
-										};
-									};
-									class Item2
-									{
-										class data
-										{
-											singleType="STRING";
-											value="";
-										};
-									};
-									class Item3
-									{
-										class data
-										{
-											singleType="ARRAY";
-											class value
-											{
-												items=3;
-												class Item0
-												{
-													class data
-													{
-														singleType="SCALAR";
-														value=3486.209;
-													};
-												};
-												class Item1
-												{
-													class data
-													{
-														singleType="SCALAR";
-														value=2142.123;
-													};
-												};
-												class Item2
-												{
-													class data
-													{
-														singleType="SCALAR";
-														value=5;
-													};
-												};
-											};
-										};
-									};
-								};
-							};
-						};
-						class Item7
-						{
-							class data
-							{
-								singleType="ARRAY";
-								class value
-								{
-									items=4;
-									class Item0
-									{
-										class data
-										{
-											singleType="SCALAR";
-											value=67;
-										};
-									};
-									class Item1
-									{
-										class data
-										{
-											singleType="STRING";
-											value="Маркер видимый только OPFOR.";
-										};
-									};
-									class Item2
-									{
-										class data
-										{
-											singleType="STRING";
-											value="";
-										};
-									};
-									class Item3
-									{
-										class data
-										{
-											singleType="ARRAY";
-											class value
-											{
-												items=3;
-												class Item0
-												{
-													class data
-													{
-														singleType="SCALAR";
-														value=3496.2639;
-													};
-												};
-												class Item1
-												{
-													class data
-													{
-														singleType="SCALAR";
-														value=2141.895;
-													};
-												};
-												class Item2
-												{
-													class data
-													{
-														singleType="SCALAR";
-														value=5;
-													};
-												};
-											};
-										};
-									};
-								};
-							};
-						};
-						class Item8
-						{
-							class data
-							{
-								singleType="ARRAY";
-								class value
-								{
-									items=4;
-									class Item0
-									{
-										class data
-										{
-											singleType="SCALAR";
-											value=69;
-										};
-									};
-									class Item1
-									{
-										class data
-										{
-											singleType="STRING";
-											value="Маркер видимый только INDEPENDENT.";
-										};
-									};
-									class Item2
-									{
-										class data
-										{
-											singleType="STRING";
-											value="";
-										};
-									};
-									class Item3
-									{
-										class data
-										{
-											singleType="ARRAY";
-											class value
-											{
-												items=3;
-												class Item0
-												{
-													class data
-													{
-														singleType="SCALAR";
-														value=3506.043;
-													};
-												};
-												class Item1
-												{
-													class data
-													{
-														singleType="SCALAR";
-														value=2141.7119;
-													};
-												};
-												class Item2
-												{
-													class data
-													{
-														singleType="SCALAR";
-														value=5;
-													};
-												};
-											};
-										};
-									};
-								};
-							};
-						};
-						class Item9
-						{
-							class data
-							{
-								singleType="ARRAY";
-								class value
-								{
-									items=4;
-									class Item0
-									{
-										class data
-										{
-											singleType="SCALAR";
-											value=71;
-										};
-									};
-									class Item1
-									{
-										class data
-										{
-											singleType="STRING";
-											value="Маркер видимый только CIVILIAN.";
-										};
-									};
-									class Item2
-									{
-										class data
-										{
-											singleType="STRING";
-											value="";
-										};
-									};
-									class Item3
-									{
-										class data
-										{
-											singleType="ARRAY";
-											class value
-											{
-												items=3;
-												class Item0
-												{
-													class data
-													{
-														singleType="SCALAR";
-														value=3518.094;
-													};
-												};
-												class Item1
-												{
-													class data
-													{
-														singleType="SCALAR";
-														value=2141.7119;
-													};
-												};
-												class Item2
-												{
-													class data
-													{
-														singleType="SCALAR";
-														value=5;
-													};
-												};
-											};
-										};
-									};
-								};
-							};
-						};
-					};
-				};
-			};
-		};
-		class Attribute3
-		{
 			property="TMF_common_introText";
 			expression="[_value] call tmf_common_fnc_intro";
 			class Value
@@ -59741,7 +59130,7 @@ class CustomAttributes
 				};
 			};
 		};
-		class Attribute4
+		class Attribute3
 		{
 			property="meh_common_MissionVersion";
 			expression="true";
@@ -59754,7 +59143,7 @@ class CustomAttributes
 				};
 			};
 		};
-		class Attribute5
+		class Attribute4
 		{
 			property="cba_settings_hasSettingsFile";
 			expression="false";
@@ -59763,11 +59152,11 @@ class CustomAttributes
 				class data
 				{
 					singleType="BOOL";
-					value=0;
+					value=1;
 				};
 			};
 		};
-		nAttributes=6;
+		nAttributes=5;
 	};
 };
 class Mission
@@ -59797,7 +59186,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=31;
+		items=33;
 		class Item0
 		{
 			dataType="Logic";
@@ -60037,7 +59426,7 @@ class Mission
 			{
 				position[]={3428.509,5,2141.188};
 			};
-			title="Хедлесс клиент для уменьшения нагрузки со стороны ИИ.";
+			title="Хедлесс клиенты для уменьшения нагрузки со стороны ИИ.";
 			id=34;
 		};
 		class Item14
@@ -60985,6 +60374,32 @@ class Mission
 				};
 				nAttributes=10;
 			};
+		};
+		class Item31
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={3427.741,5,2140.0181};
+			};
+			name="hc2";
+			isPlayable=1;
+			description="Всадник без головы";
+			id=74;
+			type="HeadlessClient_F";
+		};
+		class Item32
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={3427.0251,5,2140.03};
+			};
+			name="hc3";
+			isPlayable=1;
+			description="Всадник без головы";
+			id=75;
+			type="HeadlessClient_F";
 		};
 	};
 };
