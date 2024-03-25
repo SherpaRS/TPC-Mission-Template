@@ -1,3 +1,40 @@
+// РќР°СЃС‚СЂРѕР№С‰РёРє Р±СЂРѕРЅРё ACE
+force AAA_VAR_AI_ARMOR_COEF = 15;
+force AAA_VAR_ARMOR_THRESHOLD_VALUE = 0;
+force AAA_VAR_BASE_ARMOR_VALUE = 0;
+force AAA_VAR_BLUFOR_ARMOR_COEF = 0;
+force AAA_VAR_CIV_ARMOR_COEF = 0;
+force AAA_VAR_DEBUG = false;
+force AAA_VAR_EXPLOSIVE_MULT = 0;
+force AAA_VAR_FORCE_BASE_ARMOR = false;
+force AAA_VAR_HITABDOMEN_ENABLED = false;
+force AAA_VAR_HITABDOMEN_MULT = 0;
+force AAA_VAR_HITARMS_ENABLED = false;
+force AAA_VAR_HITARMS_MULT = 0;
+force AAA_VAR_HITBODY_ENABLED = false;
+force AAA_VAR_HITBODY_MULT = 0;
+force AAA_VAR_HITCHEST_ENABLED = false;
+force AAA_VAR_HITCHEST_MULT = 0;
+force AAA_VAR_HITDIAPHRAGM_ENABLED = false;
+force AAA_VAR_HITDIAPHRAGM_MULT = 0;
+force AAA_VAR_HITFACE_ENABLED = false;
+force AAA_VAR_HITFACE_MULT = 0;
+force AAA_VAR_HITHANDS_ENABLED = false;
+force AAA_VAR_HITHANDS_MULT = 0;
+force AAA_VAR_HITHEAD_ENABLED = false;
+force AAA_VAR_HITHEAD_MULT = 0;
+force AAA_VAR_HITLEGS_ENABLED = false;
+force AAA_VAR_HITLEGS_MULT = 0;
+force AAA_VAR_HITNECK_ENABLED = false;
+force AAA_VAR_HITNECK_MULT = 0;
+force AAA_VAR_HITPELVIS_ENABLED = false;
+force AAA_VAR_HITPELVIS_MULT = 0;
+force AAA_VAR_IND_ARMOR_COEF = 0;
+force AAA_VAR_MOD_ENABLED = false;
+force AAA_VAR_OPFOR_ARMOR_COEF = 0;
+force AAA_VAR_PLAYER_ARMOR_COEF = 15;
+force AAA_VAR_PLAYERS_ENABLED = false;
+
 // РЎРёСЃС‚РµРјР° Р‘СЂРѕРЅРµРїР»РёС‚
 force diw_armor_plates_main_AIchancePlateInInventory = 0;
 force diw_armor_plates_main_AIchancePlateInInventoryMaxNo = 0;
@@ -694,6 +731,47 @@ force vapor_sdr = 3000;
 force vapor_sim_fn = true;
 force wingspan_fn = true;
 
+// AIMEE - Change Ammo
+force AIMEE_change_ammo_settingAmmoClass = true;
+force AIMEE_change_ammo_settingVehicleAmmoClass = true;
+
+// AIMEE - Group
+force AIMEE_group_settingDropLeaderAction = true;
+
+// AIMEE - Inventory
+force AIMEE_inventory_settingAssembleAction = true;
+force AIMEE_inventory_settingBackpackAction = true;
+force AIMEE_inventory_settingHolderAction = true;
+force AIMEE_inventory_settingOpenAction = true;
+
+// AIMEE - Main
+force AIMEE_main_settingHide = true;
+
+// AIMEE - Terminals
+force AIMEE_uav_terminal_remoteControlAction = true;
+force AIMEE_uav_terminal_termAction = true;
+force AIMEE_uav_terminal_UAVAction = true;
+
+// AIMEE - Vehicle Controls
+AIMEE_vehicle_controls_settingArtyComputerAction = true;
+AIMEE_vehicle_controls_settingCollisionAction = true;
+AIMEE_vehicle_controls_settingEngineAction = true;
+AIMEE_vehicle_controls_settingFlapsAction = true;
+AIMEE_vehicle_controls_settingGearAction = true;
+AIMEE_vehicle_controls_settingHoverAction = true;
+AIMEE_vehicle_controls_settingLightsAction = true;
+AIMEE_vehicle_controls_settingLockControlsAction = true;
+AIMEE_vehicle_controls_settingManualAction = true;
+AIMEE_vehicle_controls_settingTakeControlsAction = true;
+AIMEE_vehicle_controls_settingUserActions = true;
+
+// AIMEE - Vehicle Seats
+force AIMEE_vehicle_seats_settingChangeAction = true;
+force AIMEE_vehicle_seats_settingForceEject = true;
+force AIMEE_vehicle_seats_settingGetInAction = true;
+force AIMEE_vehicle_seats_settingGetOutAction = true;
+force AIMEE_vehicle_seats_settingTurnOutAction = true;
+
 // Anti-Bounce System
 force ABS_AssistUnflip = false;
 force ABS_enableManualUnflip = false;
@@ -711,6 +789,30 @@ force ace_arcade_arcadeunconscious_unconsciousEnableInput = false;
 force ace_arcade_arcadeunconscious_unconsciousRadioVolume = 1;
 force ace_arcade_arcadeunconscious_unconsciousRemovePostProcessing = true;
 force ace_arcade_arcadeunconscious_unconsciousSpeakingVolume = 1;
+
+// Autokit PLUS
+force AutoKit_PLUS_AddGearOnTraitCHECK = true;
+force AutoKit_PLUS_AM_ACE3_BasicItems = "[""ItemGPS"",""ACE_MapTools"",""ACE_Flashlight_XL50"",""ACE_EntrenchingTool""]";
+force AutoKit_PLUS_AM_ACE3_BasicUnit_Divider = 2;
+force AutoKit_PLUS_AM_ACE3_Injectors = 5;
+force AutoKit_PLUS_AM_ACE3_IV_Blood = 5;
+force AutoKit_PLUS_AM_ACE3_IV_Plasma = 5;
+force AutoKit_PLUS_AM_ACE3_IV_Saline = 5;
+force AutoKit_PLUS_AM_ACE3_Medical_Bandages = 12;
+force AutoKit_PLUS_AM_ACE3_Splints = 4;
+force AutoKit_PLUS_AM_ACE3_Tourniquets = 4;
+force AutoKit_PLUS_AM_baseGame_IFAK = 2;
+force AutoKit_PLUS_AM_baseGame_MEDKIT = 1;
+force AutoKit_PLUS_AM_MachinegunBelts = 4;
+force AutoKit_PLUS_AM_PrimaryMags = 8;
+force AutoKit_PLUS_AM_Rockets = 4;
+force AutoKit_PLUS_AM_SecondaryMags = 4;
+force AutoKit_PLUS_AM_UnderslungGrenades = 7;
+force AutoKit_PLUS_ApplytoGroupCHECK = false;
+force AutoKit_PLUS_AssignTraitCHECK = true;
+force AutoKit_PLUS_BasicItemsCHECKER = true;
+force AutoKit_PLUS_EOD_BASIC_DetectorCHECKER = true;
+force AutoKit_PLUS_EODDetectorCHECKER = false;
 
 // AWESome Aerodynamics
 force orbis_aerodynamics_dynamicWindMode = 2;
@@ -1007,9 +1109,20 @@ force grad_trenches_functions_vehicleEnvelopeDigTime = 120;
 force grad_trenches_functions_vehicleEnvelopeRemovalTime = -1;
 force grad_trenches_functions_vehicleTrenchBuildSpeed = 5;
 
+// GRAD Animal Transport
+force grad_animalTransport_common_loadingRange = 5;
+force grad_animalTransport_common_unloadSpeed = 1;
+
 // GRAD Axe
 force GRAD_axe_setting_maxTime = 40;
 force GRAD_axe_setting_timeFactor = 1;
+
+// GRAD CaptiveWalkingAnimation
+force grad_captiveWalking_functions_allowFreeing = true;
+force grad_captiveWalking_functions_allowRunning = false;
+force grad_captiveWalking_functions_allowWalkingWhileCaptiv = true;
+force grad_captiveWalking_functions_disableEscorting = false;
+force grad_captiveWalking_functions_freeingTime = 35;
 
 // GRAD Civilians
 force grad_civs_activities_panicCooldown = "[15, 120, 240]";
@@ -1037,7 +1150,7 @@ force grad_civs_lifecycle_spawnCandidateHeightLimit = 200;
 force grad_civs_lifecycle_spawnCandidateLimitEnabled = true;
 force grad_civs_lifecycle_spawnCandidateSpeedLimit = 100;
 force grad_civs_lifecycle_spawnOnlyWithPlayers = true;
-grad_civs_lifecycle_spawnRate = 0.5;
+force grad_civs_lifecycle_spawnRate = 0.5;
 force grad_civs_loadout_backpackProbability = 0.5;
 force grad_civs_loadout_backpacks = "[]";
 force grad_civs_loadout_clothes = "[]";
@@ -1060,12 +1173,20 @@ force grad_civs_voyage_maxTravelRadius = 0;
 force grad_civs_voyage_spawnDistancesInVehicles = "[300, 3000]";
 
 // GRAD Pace Count Beads
-force grad_paceCountBeads_functions_allowPaceCountBeads = true;
+grad_paceCountBeads_functions_allowPaceCountBeads = true;
 force grad_paceCountBeads_functions_constantlyShow = false;
 force grad_paceCountBeads_functions_showOnChange = false;
 
 // GRAD Save Markers
 force GRAD_saveMarkers_setting_canBeOpened = 0;
+
+// GRAD Telephone
+force GRAD_telephone_setting_areacodes = "";
+force GRAD_telephone_setting_classnames_digits_phonebooths = "";
+force GRAD_telephone_setting_classnames_digits_phones = "";
+force GRAD_telephone_setting_classnames_rotary_phonebooths = "";
+force GRAD_telephone_setting_classnames_rotary_phones = "";
+force GRAD_telephone_setting_numberlength = "";
 
 // GRAD Version Check
 force GRAD_versionCheck_setting_dontKickAdmin = false;
@@ -1433,8 +1554,11 @@ force sbs_setting_hit_effect = true;
 force sbs_setting_hit_reaction = false;
 force sbs_setting_ied_craft = true;
 force sbs_setting_inf_armor = true;
+force sbs_setting_leaveNotes = false;
 force sbs_setting_loadoutsave = true;
 force sbs_setting_main = true;
+force sbs_setting_makeFire = false;
+force sbs_setting_money = false;
 force sbs_setting_radio = true;
 force sbs_setting_vehicle_pen = true;
 
@@ -1550,7 +1674,7 @@ force TMF_spectator_canSpectateAllSides = true;
 force TMF_spectator_firstPersonCameraEnabled = true;
 force TMF_spectator_followCameraEnabled = true;
 force TMF_spectator_freeCameraEnabled = true;
-force TMF_spectator_isJIPAllowed = 2;
+force TMF_spectator_isJIPAllowed = 0;
 force TMF_spectator_showGroupMarkers = 0;
 
 // VET_Unflipping

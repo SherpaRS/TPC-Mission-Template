@@ -19,7 +19,7 @@ class EditorData
 	};
 	class ItemIDProvider
 	{
-		nextID=76;
+		nextID=79;
 	};
 	class MarkerIDProvider
 	{
@@ -27,10 +27,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={3432.5801,24.376434,2134.2351};
-		dir[]={-0.10966831,-0.84903264,0.51683283};
-		up[]={-0.17623487,0.52833939,0.83054054};
-		aside[]={0.97822058,2.2409949e-09,0.20757152};
+		pos[]={3457.7344,25.448868,2126.6216};
+		dir[]={-0.72311229,-0.69047135,0.018958947};
+		up[]={-0.69023561,0.72335351,0.01809689};
+		aside[]={0.026209971,1.6531703e-07,0.99966002};
 	};
 };
 binarizationWanted=0;
@@ -45,15 +45,21 @@ addons[]=
 	"universal_uniforms",
 	"real_uniform_unlock",
 	"A3_Weapons_F",
+	"real_hide_casual_content",
+	"ace_maptools",
+	"ace_flashlights",
+	"ace_trenches",
+	"ace_medical_treatment",
 	"ace_goggles",
 	"A3_Ui_F",
+	"ATLAS_MoreMapColours",
 	"tpc_triggers"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=11;
+		items=17;
 		class Item0
 		{
 			className="A3_Data_F_Curator";
@@ -107,19 +113,59 @@ class AddonsMetaData
 		};
 		class Item8
 		{
+			className="real_hide_casual_content";
+			name="Real Hide Casual Content";
+			author="amartyn";
+		};
+		class Item9
+		{
+			className="ace_maptools";
+			name="ACE3 - Map Tools";
+			author="Команда ACE";
+			url="https://ace3.acemod.org/";
+		};
+		class Item10
+		{
+			className="ace_flashlights";
+			name="ACE3 - Flashlights";
+			author="Команда ACE";
+			url="https://ace3.acemod.org/";
+		};
+		class Item11
+		{
+			className="ace_trenches";
+			name="ACE3 - Trenches";
+			author="Команда ACE";
+			url="https://ace3.acemod.org/";
+		};
+		class Item12
+		{
+			className="ace_medical_treatment";
+			name="ACE3 - Medical Treatment";
+			author="Команда ACE";
+			url="https://ace3.acemod.org/";
+		};
+		class Item13
+		{
 			className="ace_goggles";
 			name="ACE3 - Goggles";
 			author="Команда ACE";
 			url="https://ace3.acemod.org/";
 		};
-		class Item9
+		class Item14
 		{
 			className="A3_Ui_F";
 			name="Arma 3 - User Interface";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item10
+		class Item15
+		{
+			className="ATLAS_MoreMapColours";
+			name="ATLAS_MoreMapColours";
+			author="Atlas";
+		};
+		class Item16
 		{
 			className="tpc_triggers";
 			name="tpc_triggers";
@@ -175,23 +221,10 @@ class CustomAttributes
 		};
 		nAttributes=2;
 	};
-	class Category1
+	class Category2
 	{
 		name="Multiplayer";
 		class Attribute0
-		{
-			property="RespawnButton";
-			expression="true";
-			class Value
-			{
-				class data
-				{
-					singleType="SCALAR";
-					value=0;
-				};
-			};
-		};
-		class Attribute1
 		{
 			property="RespawnTemplates";
 			expression="true";
@@ -215,9 +248,22 @@ class CustomAttributes
 				};
 			};
 		};
+		class Attribute1
+		{
+			property="RespawnButton";
+			expression="true";
+			class Value
+			{
+				class data
+				{
+					singleType="SCALAR";
+					value=0;
+				};
+			};
+		};
 		nAttributes=2;
 	};
-	class Category2
+	class Category3
 	{
 		name="Scenario";
 		class Attribute0
@@ -260,7 +306,7 @@ class CustomAttributes
 								singleType="ARRAY";
 								class value
 								{
-									items=1619;
+									items=1709;
 									class Item0
 									{
 										class data
@@ -13213,6 +13259,726 @@ class CustomAttributes
 											value="grad_pacecountbeads_functions_showonchange";
 										};
 									};
+									class Item1619
+									{
+										class data
+										{
+											singleType="STRING";
+											value="autokit_plus_assigntraitcheck";
+										};
+									};
+									class Item1620
+									{
+										class data
+										{
+											singleType="STRING";
+											value="autokit_plus_addgearontraitcheck";
+										};
+									};
+									class Item1621
+									{
+										class data
+										{
+											singleType="STRING";
+											value="autokit_plus_applytogroupcheck";
+										};
+									};
+									class Item1622
+									{
+										class data
+										{
+											singleType="STRING";
+											value="autokit_plus_am_primarymags";
+										};
+									};
+									class Item1623
+									{
+										class data
+										{
+											singleType="STRING";
+											value="autokit_plus_am_secondarymags";
+										};
+									};
+									class Item1624
+									{
+										class data
+										{
+											singleType="STRING";
+											value="autokit_plus_am_underslunggrenades";
+										};
+									};
+									class Item1625
+									{
+										class data
+										{
+											singleType="STRING";
+											value="autokit_plus_am_machinegunbelts";
+										};
+									};
+									class Item1626
+									{
+										class data
+										{
+											singleType="STRING";
+											value="autokit_plus_am_rockets";
+										};
+									};
+									class Item1627
+									{
+										class data
+										{
+											singleType="STRING";
+											value="autokit_plus_eoddetectorchecker";
+										};
+									};
+									class Item1628
+									{
+										class data
+										{
+											singleType="STRING";
+											value="autokit_plus_eod_basic_detectorchecker";
+										};
+									};
+									class Item1629
+									{
+										class data
+										{
+											singleType="STRING";
+											value="autokit_plus_basicitemschecker";
+										};
+									};
+									class Item1630
+									{
+										class data
+										{
+											singleType="STRING";
+											value="autokit_plus_am_ace3_basicitems";
+										};
+									};
+									class Item1631
+									{
+										class data
+										{
+											singleType="STRING";
+											value="autokit_plus_am_ace3_medical_bandages";
+										};
+									};
+									class Item1632
+									{
+										class data
+										{
+											singleType="STRING";
+											value="autokit_plus_am_ace3_injectors";
+										};
+									};
+									class Item1633
+									{
+										class data
+										{
+											singleType="STRING";
+											value="autokit_plus_am_ace3_splints";
+										};
+									};
+									class Item1634
+									{
+										class data
+										{
+											singleType="STRING";
+											value="autokit_plus_am_ace3_tourniquets";
+										};
+									};
+									class Item1635
+									{
+										class data
+										{
+											singleType="STRING";
+											value="autokit_plus_am_ace3_iv_plasma";
+										};
+									};
+									class Item1636
+									{
+										class data
+										{
+											singleType="STRING";
+											value="autokit_plus_am_ace3_iv_saline";
+										};
+									};
+									class Item1637
+									{
+										class data
+										{
+											singleType="STRING";
+											value="autokit_plus_am_ace3_iv_blood";
+										};
+									};
+									class Item1638
+									{
+										class data
+										{
+											singleType="STRING";
+											value="autokit_plus_am_ace3_basicunit_divider";
+										};
+									};
+									class Item1639
+									{
+										class data
+										{
+											singleType="STRING";
+											value="autokit_plus_am_basegame_ifak";
+										};
+									};
+									class Item1640
+									{
+										class data
+										{
+											singleType="STRING";
+											value="autokit_plus_am_basegame_medkit";
+										};
+									};
+									class Item1641
+									{
+										class data
+										{
+											singleType="STRING";
+											value="aimee_main_settinghide";
+										};
+									};
+									class Item1642
+									{
+										class data
+										{
+											singleType="STRING";
+											value="aimee_uav_terminal_remotecontrolaction";
+										};
+									};
+									class Item1643
+									{
+										class data
+										{
+											singleType="STRING";
+											value="aimee_uav_terminal_termaction";
+										};
+									};
+									class Item1644
+									{
+										class data
+										{
+											singleType="STRING";
+											value="aimee_uav_terminal_uavaction";
+										};
+									};
+									class Item1645
+									{
+										class data
+										{
+											singleType="STRING";
+											value="aimee_vehicle_seats_settinggetinaction";
+										};
+									};
+									class Item1646
+									{
+										class data
+										{
+											singleType="STRING";
+											value="aimee_vehicle_seats_settingchangeaction";
+										};
+									};
+									class Item1647
+									{
+										class data
+										{
+											singleType="STRING";
+											value="aimee_vehicle_seats_settinggetoutaction";
+										};
+									};
+									class Item1648
+									{
+										class data
+										{
+											singleType="STRING";
+											value="aimee_vehicle_seats_settingforceeject";
+										};
+									};
+									class Item1649
+									{
+										class data
+										{
+											singleType="STRING";
+											value="aimee_vehicle_seats_settingturnoutaction";
+										};
+									};
+									class Item1650
+									{
+										class data
+										{
+											singleType="STRING";
+											value="aimee_change_ammo_settingammoclass";
+										};
+									};
+									class Item1651
+									{
+										class data
+										{
+											singleType="STRING";
+											value="aimee_change_ammo_settingvehicleammoclass";
+										};
+									};
+									class Item1652
+									{
+										class data
+										{
+											singleType="STRING";
+											value="aimee_group_settingdropleaderaction";
+										};
+									};
+									class Item1653
+									{
+										class data
+										{
+											singleType="STRING";
+											value="aimee_inventory_settingopenaction";
+										};
+									};
+									class Item1654
+									{
+										class data
+										{
+											singleType="STRING";
+											value="aimee_inventory_settingbackpackaction";
+										};
+									};
+									class Item1655
+									{
+										class data
+										{
+											singleType="STRING";
+											value="aimee_inventory_settingholderaction";
+										};
+									};
+									class Item1656
+									{
+										class data
+										{
+											singleType="STRING";
+											value="aimee_inventory_settingassembleaction";
+										};
+									};
+									class Item1657
+									{
+										class data
+										{
+											singleType="STRING";
+											value="sbs_setting_money";
+										};
+									};
+									class Item1658
+									{
+										class data
+										{
+											singleType="STRING";
+											value="sbs_setting_makefire";
+										};
+									};
+									class Item1659
+									{
+										class data
+										{
+											singleType="STRING";
+											value="sbs_setting_leavenotes";
+										};
+									};
+									class Item1660
+									{
+										class data
+										{
+											singleType="STRING";
+											value="grad_telephone_setting_classnames_rotary_phones";
+										};
+									};
+									class Item1661
+									{
+										class data
+										{
+											singleType="STRING";
+											value="grad_telephone_setting_classnames_digits_phones";
+										};
+									};
+									class Item1662
+									{
+										class data
+										{
+											singleType="STRING";
+											value="grad_telephone_setting_classnames_rotary_phonebooths";
+										};
+									};
+									class Item1663
+									{
+										class data
+										{
+											singleType="STRING";
+											value="grad_telephone_setting_classnames_digits_phonebooths";
+										};
+									};
+									class Item1664
+									{
+										class data
+										{
+											singleType="STRING";
+											value="grad_telephone_setting_areacodes";
+										};
+									};
+									class Item1665
+									{
+										class data
+										{
+											singleType="STRING";
+											value="grad_telephone_setting_numberlength";
+										};
+									};
+									class Item1666
+									{
+										class data
+										{
+											singleType="STRING";
+											value="grad_civs_lifecycle_spawnrate";
+										};
+									};
+									class Item1667
+									{
+										class data
+										{
+											singleType="STRING";
+											value="aaa_var_mod_enabled";
+										};
+									};
+									class Item1668
+									{
+										class data
+										{
+											singleType="STRING";
+											value="aaa_var_players_enabled";
+										};
+									};
+									class Item1669
+									{
+										class data
+										{
+											singleType="STRING";
+											value="aaa_var_hitface_enabled";
+										};
+									};
+									class Item1670
+									{
+										class data
+										{
+											singleType="STRING";
+											value="aaa_var_hitneck_enabled";
+										};
+									};
+									class Item1671
+									{
+										class data
+										{
+											singleType="STRING";
+											value="aaa_var_hithead_enabled";
+										};
+									};
+									class Item1672
+									{
+										class data
+										{
+											singleType="STRING";
+											value="aaa_var_hitpelvis_enabled";
+										};
+									};
+									class Item1673
+									{
+										class data
+										{
+											singleType="STRING";
+											value="aaa_var_hitabdomen_enabled";
+										};
+									};
+									class Item1674
+									{
+										class data
+										{
+											singleType="STRING";
+											value="aaa_var_hitdiaphragm_enabled";
+										};
+									};
+									class Item1675
+									{
+										class data
+										{
+											singleType="STRING";
+											value="aaa_var_hitchest_enabled";
+										};
+									};
+									class Item1676
+									{
+										class data
+										{
+											singleType="STRING";
+											value="aaa_var_hitbody_enabled";
+										};
+									};
+									class Item1677
+									{
+										class data
+										{
+											singleType="STRING";
+											value="aaa_var_hitarms_enabled";
+										};
+									};
+									class Item1678
+									{
+										class data
+										{
+											singleType="STRING";
+											value="aaa_var_hithands_enabled";
+										};
+									};
+									class Item1679
+									{
+										class data
+										{
+											singleType="STRING";
+											value="aaa_var_hitlegs_enabled";
+										};
+									};
+									class Item1680
+									{
+										class data
+										{
+											singleType="STRING";
+											value="aaa_var_debug";
+										};
+									};
+									class Item1681
+									{
+										class data
+										{
+											singleType="STRING";
+											value="aaa_var_armor_threshold_value";
+										};
+									};
+									class Item1682
+									{
+										class data
+										{
+											singleType="STRING";
+											value="aaa_var_base_armor_value";
+										};
+									};
+									class Item1683
+									{
+										class data
+										{
+											singleType="STRING";
+											value="aaa_var_force_base_armor";
+										};
+									};
+									class Item1684
+									{
+										class data
+										{
+											singleType="STRING";
+											value="aaa_var_player_armor_coef";
+										};
+									};
+									class Item1685
+									{
+										class data
+										{
+											singleType="STRING";
+											value="aaa_var_ai_armor_coef";
+										};
+									};
+									class Item1686
+									{
+										class data
+										{
+											singleType="STRING";
+											value="aaa_var_blufor_armor_coef";
+										};
+									};
+									class Item1687
+									{
+										class data
+										{
+											singleType="STRING";
+											value="aaa_var_opfor_armor_coef";
+										};
+									};
+									class Item1688
+									{
+										class data
+										{
+											singleType="STRING";
+											value="aaa_var_civ_armor_coef";
+										};
+									};
+									class Item1689
+									{
+										class data
+										{
+											singleType="STRING";
+											value="aaa_var_ind_armor_coef";
+										};
+									};
+									class Item1690
+									{
+										class data
+										{
+											singleType="STRING";
+											value="aaa_var_hitface_mult";
+										};
+									};
+									class Item1691
+									{
+										class data
+										{
+											singleType="STRING";
+											value="aaa_var_hitneck_mult";
+										};
+									};
+									class Item1692
+									{
+										class data
+										{
+											singleType="STRING";
+											value="aaa_var_hithead_mult";
+										};
+									};
+									class Item1693
+									{
+										class data
+										{
+											singleType="STRING";
+											value="aaa_var_hitpelvis_mult";
+										};
+									};
+									class Item1694
+									{
+										class data
+										{
+											singleType="STRING";
+											value="aaa_var_hitabdomen_mult";
+										};
+									};
+									class Item1695
+									{
+										class data
+										{
+											singleType="STRING";
+											value="aaa_var_hitdiaphragm_mult";
+										};
+									};
+									class Item1696
+									{
+										class data
+										{
+											singleType="STRING";
+											value="aaa_var_hitchest_mult";
+										};
+									};
+									class Item1697
+									{
+										class data
+										{
+											singleType="STRING";
+											value="aaa_var_hitbody_mult";
+										};
+									};
+									class Item1698
+									{
+										class data
+										{
+											singleType="STRING";
+											value="aaa_var_hitarms_mult";
+										};
+									};
+									class Item1699
+									{
+										class data
+										{
+											singleType="STRING";
+											value="aaa_var_hithands_mult";
+										};
+									};
+									class Item1700
+									{
+										class data
+										{
+											singleType="STRING";
+											value="aaa_var_hitlegs_mult";
+										};
+									};
+									class Item1701
+									{
+										class data
+										{
+											singleType="STRING";
+											value="aaa_var_explosive_mult";
+										};
+									};
+									class Item1702
+									{
+										class data
+										{
+											singleType="STRING";
+											value="grad_animaltransport_common_loadingrange";
+										};
+									};
+									class Item1703
+									{
+										class data
+										{
+											singleType="STRING";
+											value="grad_animaltransport_common_unloadspeed";
+										};
+									};
+									class Item1704
+									{
+										class data
+										{
+											singleType="STRING";
+											value="grad_captivewalking_functions_allowwalkingwhilecaptiv";
+										};
+									};
+									class Item1705
+									{
+										class data
+										{
+											singleType="STRING";
+											value="grad_captivewalking_functions_disableescorting";
+										};
+									};
+									class Item1706
+									{
+										class data
+										{
+											singleType="STRING";
+											value="grad_captivewalking_functions_allowrunning";
+										};
+									};
+									class Item1707
+									{
+										class data
+										{
+											singleType="STRING";
+											value="grad_captivewalking_functions_allowfreeing";
+										};
+									};
+									class Item1708
+									{
+										class data
+										{
+											singleType="STRING";
+											value="grad_captivewalking_functions_freeingtime";
+										};
+									};
 								};
 							};
 						};
@@ -13223,7 +13989,7 @@ class CustomAttributes
 								singleType="ARRAY";
 								class value
 								{
-									items=1619;
+									items=1709;
 									class Item0
 									{
 										class data
@@ -29376,7 +30142,7 @@ class CustomAttributes
 													class data
 													{
 														singleType="SCALAR";
-														value=2;
+														value=0;
 													};
 												};
 												class Item1
@@ -59102,6 +59868,2436 @@ class CustomAttributes
 											};
 										};
 									};
+									class Item1619
+									{
+										class data
+										{
+											singleType="ARRAY";
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														singleType="BOOL";
+														value=1;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item1620
+									{
+										class data
+										{
+											singleType="ARRAY";
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														singleType="BOOL";
+														value=1;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item1621
+									{
+										class data
+										{
+											singleType="ARRAY";
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														singleType="BOOL";
+														value=0;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item1622
+									{
+										class data
+										{
+											singleType="ARRAY";
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=8;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item1623
+									{
+										class data
+										{
+											singleType="ARRAY";
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=4;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item1624
+									{
+										class data
+										{
+											singleType="ARRAY";
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=7;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item1625
+									{
+										class data
+										{
+											singleType="ARRAY";
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=4;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item1626
+									{
+										class data
+										{
+											singleType="ARRAY";
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=4;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item1627
+									{
+										class data
+										{
+											singleType="ARRAY";
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														singleType="BOOL";
+														value=0;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item1628
+									{
+										class data
+										{
+											singleType="ARRAY";
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														singleType="BOOL";
+														value=1;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item1629
+									{
+										class data
+										{
+											singleType="ARRAY";
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														singleType="BOOL";
+														value=1;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item1630
+									{
+										class data
+										{
+											singleType="ARRAY";
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														singleType="STRING";
+														value="[""ItemGPS"",""ACE_MapTools"",""ACE_Flashlight_XL50"",""ACE_EntrenchingTool""]";
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item1631
+									{
+										class data
+										{
+											singleType="ARRAY";
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=12;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item1632
+									{
+										class data
+										{
+											singleType="ARRAY";
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=5;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item1633
+									{
+										class data
+										{
+											singleType="ARRAY";
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=4;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item1634
+									{
+										class data
+										{
+											singleType="ARRAY";
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=4;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item1635
+									{
+										class data
+										{
+											singleType="ARRAY";
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=5;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item1636
+									{
+										class data
+										{
+											singleType="ARRAY";
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=5;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item1637
+									{
+										class data
+										{
+											singleType="ARRAY";
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=5;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item1638
+									{
+										class data
+										{
+											singleType="ARRAY";
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=2;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item1639
+									{
+										class data
+										{
+											singleType="ARRAY";
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=2;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item1640
+									{
+										class data
+										{
+											singleType="ARRAY";
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=1;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item1641
+									{
+										class data
+										{
+											singleType="ARRAY";
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														singleType="BOOL";
+														value=1;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item1642
+									{
+										class data
+										{
+											singleType="ARRAY";
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														singleType="BOOL";
+														value=1;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item1643
+									{
+										class data
+										{
+											singleType="ARRAY";
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														singleType="BOOL";
+														value=1;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item1644
+									{
+										class data
+										{
+											singleType="ARRAY";
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														singleType="BOOL";
+														value=1;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item1645
+									{
+										class data
+										{
+											singleType="ARRAY";
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														singleType="BOOL";
+														value=1;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item1646
+									{
+										class data
+										{
+											singleType="ARRAY";
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														singleType="BOOL";
+														value=1;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item1647
+									{
+										class data
+										{
+											singleType="ARRAY";
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														singleType="BOOL";
+														value=1;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item1648
+									{
+										class data
+										{
+											singleType="ARRAY";
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														singleType="BOOL";
+														value=1;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item1649
+									{
+										class data
+										{
+											singleType="ARRAY";
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														singleType="BOOL";
+														value=1;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item1650
+									{
+										class data
+										{
+											singleType="ARRAY";
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														singleType="BOOL";
+														value=1;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item1651
+									{
+										class data
+										{
+											singleType="ARRAY";
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														singleType="BOOL";
+														value=1;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item1652
+									{
+										class data
+										{
+											singleType="ARRAY";
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														singleType="BOOL";
+														value=1;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item1653
+									{
+										class data
+										{
+											singleType="ARRAY";
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														singleType="BOOL";
+														value=1;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item1654
+									{
+										class data
+										{
+											singleType="ARRAY";
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														singleType="BOOL";
+														value=1;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item1655
+									{
+										class data
+										{
+											singleType="ARRAY";
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														singleType="BOOL";
+														value=1;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item1656
+									{
+										class data
+										{
+											singleType="ARRAY";
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														singleType="BOOL";
+														value=1;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item1657
+									{
+										class data
+										{
+											singleType="ARRAY";
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														singleType="BOOL";
+														value=0;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item1658
+									{
+										class data
+										{
+											singleType="ARRAY";
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														singleType="BOOL";
+														value=0;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item1659
+									{
+										class data
+										{
+											singleType="ARRAY";
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														singleType="BOOL";
+														value=0;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item1660
+									{
+										class data
+										{
+											singleType="ARRAY";
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														singleType="STRING";
+														value="";
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item1661
+									{
+										class data
+										{
+											singleType="ARRAY";
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														singleType="STRING";
+														value="";
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item1662
+									{
+										class data
+										{
+											singleType="ARRAY";
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														singleType="STRING";
+														value="";
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item1663
+									{
+										class data
+										{
+											singleType="ARRAY";
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														singleType="STRING";
+														value="";
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item1664
+									{
+										class data
+										{
+											singleType="ARRAY";
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														singleType="STRING";
+														value="";
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item1665
+									{
+										class data
+										{
+											singleType="ARRAY";
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														singleType="STRING";
+														value="";
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item1666
+									{
+										class data
+										{
+											singleType="ARRAY";
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=0.5;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item1667
+									{
+										class data
+										{
+											singleType="ARRAY";
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														singleType="BOOL";
+														value=0;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item1668
+									{
+										class data
+										{
+											singleType="ARRAY";
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														singleType="BOOL";
+														value=0;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item1669
+									{
+										class data
+										{
+											singleType="ARRAY";
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														singleType="BOOL";
+														value=0;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item1670
+									{
+										class data
+										{
+											singleType="ARRAY";
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														singleType="BOOL";
+														value=0;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item1671
+									{
+										class data
+										{
+											singleType="ARRAY";
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														singleType="BOOL";
+														value=0;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item1672
+									{
+										class data
+										{
+											singleType="ARRAY";
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														singleType="BOOL";
+														value=0;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item1673
+									{
+										class data
+										{
+											singleType="ARRAY";
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														singleType="BOOL";
+														value=0;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item1674
+									{
+										class data
+										{
+											singleType="ARRAY";
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														singleType="BOOL";
+														value=0;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item1675
+									{
+										class data
+										{
+											singleType="ARRAY";
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														singleType="BOOL";
+														value=0;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item1676
+									{
+										class data
+										{
+											singleType="ARRAY";
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														singleType="BOOL";
+														value=0;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item1677
+									{
+										class data
+										{
+											singleType="ARRAY";
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														singleType="BOOL";
+														value=0;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item1678
+									{
+										class data
+										{
+											singleType="ARRAY";
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														singleType="BOOL";
+														value=0;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item1679
+									{
+										class data
+										{
+											singleType="ARRAY";
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														singleType="BOOL";
+														value=0;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item1680
+									{
+										class data
+										{
+											singleType="ARRAY";
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														singleType="BOOL";
+														value=0;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item1681
+									{
+										class data
+										{
+											singleType="ARRAY";
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=0;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item1682
+									{
+										class data
+										{
+											singleType="ARRAY";
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=0;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item1683
+									{
+										class data
+										{
+											singleType="ARRAY";
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														singleType="BOOL";
+														value=0;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item1684
+									{
+										class data
+										{
+											singleType="ARRAY";
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=15;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item1685
+									{
+										class data
+										{
+											singleType="ARRAY";
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=15;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item1686
+									{
+										class data
+										{
+											singleType="ARRAY";
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=0;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item1687
+									{
+										class data
+										{
+											singleType="ARRAY";
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=0;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item1688
+									{
+										class data
+										{
+											singleType="ARRAY";
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=0;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item1689
+									{
+										class data
+										{
+											singleType="ARRAY";
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=0;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item1690
+									{
+										class data
+										{
+											singleType="ARRAY";
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=0;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item1691
+									{
+										class data
+										{
+											singleType="ARRAY";
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=0;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item1692
+									{
+										class data
+										{
+											singleType="ARRAY";
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=0;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item1693
+									{
+										class data
+										{
+											singleType="ARRAY";
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=0;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item1694
+									{
+										class data
+										{
+											singleType="ARRAY";
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=0;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item1695
+									{
+										class data
+										{
+											singleType="ARRAY";
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=0;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item1696
+									{
+										class data
+										{
+											singleType="ARRAY";
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=0;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item1697
+									{
+										class data
+										{
+											singleType="ARRAY";
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=0;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item1698
+									{
+										class data
+										{
+											singleType="ARRAY";
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=0;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item1699
+									{
+										class data
+										{
+											singleType="ARRAY";
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=0;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item1700
+									{
+										class data
+										{
+											singleType="ARRAY";
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=0;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item1701
+									{
+										class data
+										{
+											singleType="ARRAY";
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=0;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item1702
+									{
+										class data
+										{
+											singleType="ARRAY";
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=5;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item1703
+									{
+										class data
+										{
+											singleType="ARRAY";
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=1;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item1704
+									{
+										class data
+										{
+											singleType="ARRAY";
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														singleType="BOOL";
+														value=1;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item1705
+									{
+										class data
+										{
+											singleType="ARRAY";
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														singleType="BOOL";
+														value=0;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item1706
+									{
+										class data
+										{
+											singleType="ARRAY";
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														singleType="BOOL";
+														value=0;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item1707
+									{
+										class data
+										{
+											singleType="ARRAY";
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														singleType="BOOL";
+														value=1;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item1708
+									{
+										class data
+										{
+											singleType="ARRAY";
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=35;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														singleType="SCALAR";
+														value=1;
+													};
+												};
+											};
+										};
+									};
 								};
 							};
 						};
@@ -59152,7 +62348,7 @@ class CustomAttributes
 				class data
 				{
 					singleType="BOOL";
-					value=1;
+					value=0;
 				};
 			};
 		};
@@ -59634,6 +62830,57 @@ class Mission
 					class Attributes
 					{
 						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="U_C_Poor_1";
+								isBackpack=0;
+								class ItemCargo
+								{
+									items=7;
+									class Item0
+									{
+										name="ACE_MapTools";
+										count=1;
+									};
+									class Item1
+									{
+										name="ACE_Flashlight_XL50";
+										count=1;
+									};
+									class Item2
+									{
+										name="ACE_EntrenchingTool";
+										count=1;
+									};
+									class Item3
+									{
+										name="ACE_elasticBandage";
+										count=6;
+									};
+									class Item4
+									{
+										name="ACE_packingBandage";
+										count=6;
+									};
+									class Item5
+									{
+										name="ACE_quikclot";
+										count=6;
+									};
+									class Item6
+									{
+										name="ACE_morphine";
+										count=5;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							gps="ItemGPS";
+						};
 					};
 					id=50;
 					type="C_man_p_fugitive_F";
